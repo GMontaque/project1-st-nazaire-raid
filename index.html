@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title and tab icon -->
     <link
       rel="icon"
       type="images/x-icon"
@@ -18,5 +19,65 @@
     <!-- css stlye sheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="index.html">
+        <h1 id="logo"></h1>
+      </a>
+      <!-- nav bar for webiste **mobile** -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <!-- nav bar for webiste -->
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="media-links.html">Mutli Media</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- main top image  -->
+      <div class="hero-slider">
+        <div class="hero-slider-slide hero-slide-img-1">
+          <img src="" alt="" />
+        </div>
+        <div class="hero-slider-slide hero-slide-img-2">
+          <img src="" alt="" />
+        </div>
+        <div class="hero-slider-slide hero-slide-img-3">
+          <img src="" alt="" />
+        </div>
+        <div id="hero-text">
+          <p>
+            <strong>
+              The greatest raid of all time, that i bet you haven't heard
+              about…. Code name operation chariot
+            </strong>
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <!-- creater details -->
+      <div>
+        <p>created by:</p>
+        <p>giulio montaque</p>
+      </div>
+      <!-- nav bar for webiste -->
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="media-links.html">Mutli Media</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
