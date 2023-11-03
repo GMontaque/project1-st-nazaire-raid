@@ -18,6 +18,70 @@
     <meta name="keywords" content="WW2, raid, British, Commando, Raid" />
     <!-- css stlye sheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+
+      .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      /* Create four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .myDIV:hover + .hide {
+        display: block;
+        color: red;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- header -->
@@ -33,8 +97,8 @@
       <!-- nav bar for webiste -->
       <nav>
         <ul id="menu">
-          <li><a href="index.html" >Home</a></li>
-          <li><a href="gallery.html"class="active">Gallery</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
           <li><a href="media-links.html">Mutli Media</a></li>
         </ul>
       </nav>
@@ -43,6 +107,120 @@
     <!-- main -->
     <main>
       <h1>gallery</h1>
+      <!-- image gallery -->
+      <div class="row">
+        <!-- first colum -->
+        <div class="column">
+          <img
+            src="assets/images/Aerial reconnaissance.jpg"
+            style="width: 100%"
+          />
+          <div class="hide">
+            I am shown when someone hovers over the div above.
+          </div>
+          <img
+            src="assets/images/caputred commandos 2.jpg"
+            style="width: 100%"
+            class="myDIV"
+          />
+          <img src="assets/images/caputred commandos.jpg" style="width: 100%" />
+
+          <div>
+            <h3>name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              alias accusamus iusto voluptatem non rerum modi neque amet eos
+              laudantium.
+            </p>
+          </div>
+          <img
+            src="assets/images/HMS Campbeltown conversion.webp"
+            style="width: 100%"
+          />
+        </div>
+        <!-- second colum -->
+        <div class="column">
+          <img
+            src="assets/images/HMS Campbeltown hit dock.webp"
+            style="width: 100%"
+          />
+          <div>
+            <h3>name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              alias accusamus iusto voluptatem non rerum modi neque amet eos
+              laudantium.
+            </p>
+          </div>
+
+          <img
+            src="assets/images/HMS campbeltown wedged in dock.jpg"
+            style="width: 100%"
+          />
+          <img src="assets/images/HMS Campbeltown.webp" style="width: 100%" />
+          <img src="assets/images/Chalres Newman.webp" style="width: 100%" />
+
+          <img src="assets/images/HMS Campbeltown.webp" style="width: 100%" />
+        </div>
+        <!-- third colum -->
+        <div class="column">
+          <img
+            src="assets/images/St Nazaire aftermath.jpg"
+            style="width: 100%"
+          />
+
+          <img
+            src="assets/images/Lt-Col-R.K.-Montgomery.webp"
+            style="width: 100%"
+          />
+          <div>
+            <h3>name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              alias accusamus iusto voluptatem non rerum modi neque amet eos
+              laudantium.
+            </p>
+          </div>
+          <img src="assets/images/wounded solider.webp" style="width: 100%" />
+          <div>
+            <h3>name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              alias accusamus iusto voluptatem non rerum modi neque amet eos
+              laudantium.
+            </p>
+          </div>
+          <img
+            src="assets/images/St_ Nazaire  HMS Campbeltown 3.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <!-- fourth colum -->
+        <div class="column">
+          <img
+            src="assets/images/modification to campbeltown.webp"
+            style="width: 100%"
+          />
+          <img src="assets/images/plan of attack.webp" style="width: 100%" />
+          <div>
+            <h3>name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              alias accusamus iusto voluptatem non rerum modi neque amet eos
+              laudantium.
+            </p>
+          </div>
+          <img
+            src="assets/images/german troops next day.jpg"
+            style="width: 100%"
+          />
+          <img
+            src="assets/images/HMS campbeltown wedged in dock.jpg"
+            style="width: 100%"
+          />
+          <img src="assets/images/HMS Campbeltown.webp" style="width: 100%" />
+        </div>
+      </div>
     </main>
     <!-- footer -->
     <footer>
