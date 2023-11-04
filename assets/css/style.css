@@ -1,0 +1,140 @@
+/* general styling */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px, 10px/16px = 62.5%*/
+}
+
+body {
+  width: 100vw;
+}
+
+/* navbar  */
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 11rem;
+  background: grey;
+  top: 0;
+  width: 100%;
+  align-items: center;
+}
+
+nav {
+  width: 20%;
+}
+
+#logo {
+  height: 10rem;
+  width: 10rem;
+}
+
+#navlinks {
+  display: flex;
+}
+#navlinks li a {
+  text-decoration: none;
+  color: black;
+}
+
+#navlinks li {
+  list-style: none;
+  padding-right: 1rem;
+  font-size: 2rem;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+main {
+  margin-top: 11rem;
+}
+
+/* footer style */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 11rem;
+  background: grey;
+  top: 0;
+  width: 100%;
+  align-items: center;
+}
+
+/* mobile nav larger screen */
+
+#nav-toggle,
+.nav-toggle-label {
+  display: none;
+}
+/* index page */
+
+/* gallery page */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+/* makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.vc-winner {
+  height: 50%;
+  width: 50% !important;
+}
+
+blockquote {
+  font-size: 2rem;
+}
+
+/* media page */
+
+
