@@ -72,6 +72,7 @@ footer {
   top: 0;
   width: 100%;
   align-items: center;
+  margin-top: 3rem;
 }
 
 /* mobile nav larger screen */
@@ -169,7 +170,7 @@ blockquote {
 /* podcast */
 .podcast {
   width: 80%;
-  margin: 5rem auto;
+  margin: 15rem auto;
 }
 
 .podcast-header {
@@ -185,11 +186,17 @@ blockquote {
 .st-nazaire-books {
   width: 90%;
   margin: 0 auto;
-  border: 2px solid black;
 }
+
+.st-nazaire-books h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 figure {
   width: 49%;
   align-content: center;
+  margin-bottom: 10rem;
 }
 
 figure:nth-child(odd) {
@@ -203,4 +210,11 @@ figure:nth-child(even) {
 figure img {
   height: 70%;
   width: 50%;
+}
+
+figcaption {
+  width: 50%;
+  float: right;
+  padding: 20% 5%;
+  text-align: justify;
 }
