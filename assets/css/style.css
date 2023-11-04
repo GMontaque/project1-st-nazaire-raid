@@ -130,13 +130,54 @@ footer {
   }
 }
 
-.vc-winner {
+/* .vc-winner {
   height: 50%;
   width: 50% !important;
-}
+} */
 
 blockquote {
   font-size: 2rem;
+  text-align: justify;
+  font-size: 2rem;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.vc-winners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5rem 0rem;
+}
+
+.vc-winners-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.vc-winners-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 44vw;
+  margin: 4rem 2rem;
+}
+
+.vc-winners-card-title {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+}
+
+.vc-winners-card img {
+  float: left;
+  height: 300px;
+  width: 200px;
+  margin: 2rem 2rem 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
 /* media page */
