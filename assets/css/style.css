@@ -75,12 +75,65 @@ footer {
   margin-top: 3rem;
 }
 
-/* mobile nav larger screen */
+/* mobile nav  */
 
-#nav-toggle,
-.nav-toggle-label {
+.container {
+  max-width: 60%;
+  width: 60%;
+}
+
+.mobile-navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
   display: none;
 }
+
+.mobile-navbar .mobile-navbar-container li {
+  list-style: none;
+}
+
+.mobile-navbar-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  right: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.mobile-navbar-container .hamburger {
+  position: absolute;
+  font-size: 3rem;
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+}
+
+.mobile-navbar .mobile-navlinks {
+  padding-top: 10rem;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+  background-color: grey;
+}
+
+.mobile-navbar-container .mobile-navlinks li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 5rem 0;
+}
+
+.mobile-navbar-container input[type="checkbox"]:checked ~ .mobile-navlinks {
+  transform: translateX(0);
+}
+
 /* index page */
 
 /* gallery page */
@@ -253,4 +306,28 @@ figcaption {
   float: right;
   padding: 20% 5%;
   text-align: justify;
+}
+
+/* media query  */
+
+/* navbar mobile */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    color: red;
+  }
+
+  .mobile-navbar {
+    display: block;
+  }
+
+  .lg-screen-navbar {
+    display: none;
+  }
 }

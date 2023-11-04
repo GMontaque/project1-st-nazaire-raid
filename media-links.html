@@ -29,13 +29,22 @@
           id="logo"
         />
       </a>
-      <!-- nav bar for webiste **mobile** -->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-      <!-- nav bar for webiste -->
-      <nav>
+      <!-- nav bar for mobile -->
+      <div class="mobile-navbar">
+        <div class="container mobile-navbar-container">
+          <input class="checkbox" type="checkbox" name="nav-mobile-checkbox" />
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav class="mobile-navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media-links.html" class="active">Mutli Media</a></li>
+          </nav>
+        </div>
+      </div>
+      <!-- nav bar for non mobile -->
+      <nav class="lg-screen-navbar">
         <ul id="navlinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
