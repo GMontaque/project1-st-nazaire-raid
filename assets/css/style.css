@@ -28,7 +28,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  height: 7rem;
+  height: 10rem;
   background: grey;
   top: 0;
   width: 100%;
@@ -37,8 +37,8 @@ header {
 }
 
 #logo {
-  height: 7rem;
-  width: 7rem;
+  height: 9rem;
+  width: 9rem;
 }
 
 #navlinks {
@@ -60,7 +60,7 @@ header {
 }
 
 main {
-  margin-top: 11rem;
+  margin-top: 10rem;
   width: 100vw;
 }
 
@@ -407,6 +407,10 @@ blockquote {
   margin: 2rem 2rem 0.5rem 1rem;
 }
 
+blockquote i {
+  padding-right: 1rem;
+}
+
 a {
   text-decoration: none;
   font-size: 22px;
@@ -491,6 +495,27 @@ a {
   float: right;
   padding: 20% 5%;
   text-align: justify;
+  quotes: "“" "”";
+  position: relative;
+  /* padding-left: 40px; */
+}
+
+.st-nazaire-books-fig-review::before {
+  content: open-quote;
+  font-size: 4em;
+  color: green;
+  position: absolute;
+  top: 14rem;
+  left: 1rem;
+  font-family: Georgia, serif;
+}
+.st-nazaire-books-fig-review::after {
+  content: close-quote;
+  font-size: 4em;
+  padding-left: 1rem;
+  position: absolute;
+  color: green;
+  font-family: Georgia, serif;
 }
 
 /* media query  */
