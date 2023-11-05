@@ -99,9 +99,8 @@ footer {
   display: block;
   height: 32px;
   width: 32px;
-  top: 20px;
-  right: 20px;
-  z-index: 99;
+  top: 25px;
+  right: 50px;
   opacity: 0;
   cursor: pointer;
 }
@@ -495,27 +494,6 @@ a {
   float: right;
   padding: 20% 5%;
   text-align: justify;
-  quotes: "“" "”";
-  position: relative;
-  /* padding-left: 40px; */
-}
-
-.st-nazaire-books-fig-review::before {
-  content: open-quote;
-  font-size: 4em;
-  color: green;
-  position: absolute;
-  top: 14rem;
-  left: 1rem;
-  font-family: Georgia, serif;
-}
-.st-nazaire-books-fig-review::after {
-  content: close-quote;
-  font-size: 4em;
-  padding-left: 1rem;
-  position: absolute;
-  color: green;
-  font-family: Georgia, serif;
 }
 
 /* media query  */
@@ -539,5 +517,16 @@ a {
 
   .lg-screen-navbar {
     display: none;
+  }
+}
+
+/* gallery page */
+
+@media only screen and (max-width: 769px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .vc-winners-card {
+    max-width: 100%;
   }
 }
