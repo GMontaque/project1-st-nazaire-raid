@@ -271,11 +271,9 @@ footer {
   margin: 2rem;
 }
 
-.tirpitz {
-  width: 30%;
-}
-
-.mapplan-detailed {
+.tirpitz,
+.mapplan-detailed,
+.memorial-closeup {
   width: 30%;
 }
 
@@ -290,13 +288,9 @@ footer {
   width: 20%;
 }
 
-.memorial-closeup {
-  width: 30%;
-}
-
 .st-nazaire-main-content-header {
   margin: 3rem 0;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .st-nazaire-main-content-text {
@@ -304,6 +298,29 @@ footer {
   font-size: 2rem;
   padding: 0 2rem;
   margin-bottom: 2rem;
+}
+
+.figure-test {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  /* max-width: 220px; */
+  float: none !important;
+  margin: auto;
+}
+
+.img-test {
+  margin: 0rem !important;
+  width: 60%;
+}
+
+.figcaption-test {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
 }
 
 /* gallery page */
@@ -451,26 +468,26 @@ a {
   margin-bottom: 2rem;
 }
 
-figure {
+.st-nazaire-books-fig {
   width: 49%;
   align-content: center;
   margin-bottom: 10rem;
 }
 
-figure:nth-child(odd) {
+.st-nazaire-books-fig:nth-child(odd) {
   float: right;
   margin-left: 1rem;
 }
-figure:nth-child(even) {
+.st-nazaire-books-fig:nth-child(even) {
   float: left;
 }
 
-figure img {
+.st-nazaire-books-fig-img {
   height: 70%;
   width: 50%;
 }
 
-figcaption {
+.st-nazaire-books-fig-review {
   width: 50%;
   float: right;
   padding: 20% 5%;
