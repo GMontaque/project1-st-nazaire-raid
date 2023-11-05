@@ -28,7 +28,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  height: 11rem;
+  height: 7rem;
   background: grey;
   top: 0;
   width: 100%;
@@ -37,8 +37,8 @@ header {
 }
 
 #logo {
-  height: 10rem;
-  width: 10rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 #navlinks {
@@ -300,27 +300,26 @@ footer {
   margin-bottom: 2rem;
 }
 
-.figure-test {
+.st-nazaire-memorial {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
-  /* max-width: 220px; */
-  float: none !important;
   margin: auto;
+  width: 30%;
 }
 
-.img-test {
+.st-nazaire-memorial-img {
   margin: 0rem !important;
-  width: 60%;
 }
 
-.figcaption-test {
+.st-nazaire-memorial-caption {
   background-color: #222;
   color: #fff;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+  font-size: 2rem;
 }
 
 /* gallery page */
