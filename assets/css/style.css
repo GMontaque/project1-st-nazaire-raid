@@ -61,7 +61,7 @@ header {
 
 main {
   margin-top: 11rem;
-  width: 100%;
+  width: 100vw;
 }
 
 /* footer style */
@@ -152,7 +152,7 @@ footer {
   position: relative;
   float: right;
 }
-/* CSS Styles in common for all slides */
+/* CSS Styles for all slides */
 .wrapper-one,
 .wrapper-two,
 .wrapper-three {
@@ -161,13 +161,12 @@ footer {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position: center; /* Center the image */
+  background-position: center;
   background-size: cover;
   display: flex;
 }
 
 /* CSS Styles for each slide */
-/* Just add the image as background attribute and add some animation */
 
 .wrapper-one {
   background-image: url("../images/st\ nazaire\ painting.jpg");
@@ -252,6 +251,61 @@ footer {
   border-radius: 1rem;
   color: red;
 }
+
+/* main content of index page */
+
+.index-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.st-nazaire-main-content {
+  width: 100vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: fit-content;
+  margin: 3rem 10rem;
+}
+
+.st-nazaire-main-content img {
+  float: left;
+  margin: 2rem;
+}
+
+.tirpitz {
+  width: 30%;
+}
+
+.mapplan-detailed {
+  width: 30%;
+}
+
+.mock-up {
+  float: none;
+  width: 100%;
+  margin: 2rem 0 !important;
+  padding: 0rem 2rem;
+}
+
+.memorial-fullsize {
+  width: 20%;
+}
+
+.memorial-closeup {
+  width: 30%;
+}
+
+.st-nazaire-main-content-header {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+}
+
+.st-nazaire-main-content-text {
+  text-align: justify;
+  font-size: 2rem;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
 /* gallery page */
 
 .row {
@@ -302,7 +356,6 @@ footer {
 blockquote {
   font-size: 2rem;
   text-align: justify;
-  font-size: 2rem;
   padding: 0 2rem;
   margin-bottom: 2rem;
 }
