@@ -461,41 +461,66 @@ a {
 
 /* st nazaire books */
 .st-nazaire-books {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
   width: 90%;
   margin: 0 auto;
 }
 
-.st-nazaire-books h4 {
+.st-nazaire-books > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  .st-nazaire-books-fig {
+    flex: 1 0 0;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .st-nazaire-books-fig {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 1026px) {
+  .st-nazaire-books-fig {
+    flex-direction: column;
+  }
+  .st-nazaire-books {
+    width: 100%;
+    margin: 0 3rem;
+  }
+}
+
+.st-nazaire-books-head {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .st-nazaire-books-fig {
-  width: 49%;
-  align-content: center;
-  margin-bottom: 10rem;
-}
-
-.st-nazaire-books-fig:nth-child(odd) {
-  float: right;
-  margin-left: 1rem;
-}
-.st-nazaire-books-fig:nth-child(even) {
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
 
 .st-nazaire-books-fig-img {
-  height: 70%;
   width: 50%;
 }
 
 .st-nazaire-books-fig-review {
-  width: 50%;
-  float: right;
-  padding: 20% 5%;
+  margin-left: 3rem;
   text-align: justify;
 }
-
+.style-test {
+  border-radius: 3rem;
+  background-color: beige;
+  padding: 3rem;
+}
 /* media query  */
 
 /* navbar mobile */
