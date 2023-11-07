@@ -17,8 +17,11 @@ body {
 }
 
 h1 {
-  font-size: 10rem;
+  width: 100%;
+  font-size: 8rem;
   text-align: center;
+  /* display: flex;
+  justify-content: center; */
   margin-bottom: 3rem;
   padding-top: 3rem;
 }
@@ -243,12 +246,14 @@ footer {
 
 .hero-header-text {
   position: absolute;
-  top: 50%;
-  left: 0;
+  top: 15%;
+  left: 5%;
   border: 2px solid red;
   padding: 2rem;
   border-radius: 1rem;
   color: red;
+  font-size: 5rem;
+  width: 30%;
 }
 
 /* main content of index page */
@@ -263,6 +268,7 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: fit-content;
   margin: 3rem 10rem;
+  padding: 5rem 7rem;
 }
 
 .st-nazaire-main-content img {
@@ -517,21 +523,29 @@ a {
 
 /* navbar mobile */
 
-@media screen and (max-width: 426px) {
-  h1 {
-    color: red;
+@media only screen and (max-width: 1026px) {
+  .hero-header-text {
+    top: 15%;
+    width: 35%;
+  }
+  .slide-show-container {
+    width: 100%;
   }
 
-  .mobile-navbar {
-    display: block;
-  }
-
-  .lg-screen-navbar {
-    display: none;
+  .st-nazaire-memorial {
+    width: 60%;
   }
 }
-
 @media only screen and (max-width: 769px) {
+  .hero-header-text {
+    top: 3%;
+    width: 90%;
+  }
+
+  .st-nazaire-main-content {
+    margin: 3rem 7rem;
+    padding: 5rem 4rem;
+  }
   /* gallery page */
   h1 {
     font-size: 4rem;
@@ -549,5 +563,27 @@ a {
 
   .youtube-documentary-video iframe {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .st-nazaire-main-content {
+    margin: 3rem;
+    padding: 0rem;
+  }
+  h1 {
+    color: red;
+  }
+
+  .mobile-navbar {
+    display: block;
+  }
+
+  .lg-screen-navbar {
+    display: none;
+  }
+  .st-nazaire-memorial {
+    margin: 0;
+    width: 100%;
   }
 }
