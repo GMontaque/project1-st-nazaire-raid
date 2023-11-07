@@ -419,29 +419,22 @@ a {
 /* media page */
 
 .youtube-documentary {
-  width: 100%;
-  height: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: column; /* align-items:
+	center; */
+  width: 100%;
 }
-
+.youtube-documentary-innervid {
+  margin: 0 auto;
+}
 .youtube-documentary-head {
-  width: 60%;
-  float: left;
+  width: 100%;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-
-.youtube-documentary-video {
-  border: 2px solid black;
-  width: 60%;
-  height: 60vh;
-}
-
-#clarkson-documentary-title {
-  width: 100%;
-  height: 100%;
+.youtube-documentary-video iframe {
+  aspect-ratio: 16 / 9;
+  width: 70rem;
 }
 
 /* podcast */
@@ -491,7 +484,6 @@ a {
     flex-direction: column;
   }
   .st-nazaire-books {
-    width: 100%;
     margin: 0 3rem;
   }
 }
@@ -513,7 +505,7 @@ a {
 }
 
 .st-nazaire-books-fig-review {
-  margin-left: 3rem;
+  margin-left: 1rem;
   text-align: justify;
 }
 .style-test {
@@ -524,12 +516,6 @@ a {
 /* media query  */
 
 /* navbar mobile */
-
-@media screen and (max-width: 768px) {
-  h1 {
-    color: red;
-  }
-}
 
 @media screen and (max-width: 426px) {
   h1 {
@@ -545,13 +531,23 @@ a {
   }
 }
 
-/* gallery page */
-
 @media only screen and (max-width: 769px) {
+  /* gallery page */
   h1 {
     font-size: 4rem;
+    color: red;
   }
   .vc-winners-card {
     max-width: 100%;
+  }
+
+  /* media page */
+  .podcast {
+    width: 90%;
+    margin: 15rem 2rem;
+  }
+
+  .youtube-documentary-video iframe {
+    width: 100vw;
   }
 }
