@@ -171,16 +171,16 @@ footer {
 /* CSS Styles for each slide */
 
 .wrapper-one {
-  background-image: url("../images/st\ nazaire\ painting.jpg");
+  background-image: url("../images/st-nazaire-painting.jpg");
 }
 
 .wrapper-two {
-  background-image: url("../images/HMS Campbeltown hit dock 2.webp");
+  background-image: url("../images/hms-campbeltown-hit-dock-2.webp");
   animation: slideTwoAnim 20s infinite;
 }
 
 .wrapper-three {
-  background-image: url("../images/modification to campbeltown.webp");
+  background-image: url("../images/modification-to-campbeltown.webp");
   animation: slideThreeAnim 20s infinite;
 }
 
