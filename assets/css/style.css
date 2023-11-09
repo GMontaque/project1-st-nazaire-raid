@@ -568,10 +568,7 @@ a {
 }
 
 @media screen and (max-width: 426px) {
-  .st-nazaire-main-content {
-    margin: 3rem;
-    padding: 0rem;
-  }
+  /* general */
   h1 {
     color: red;
   }
@@ -582,6 +579,18 @@ a {
 
   .lg-screen-navbar {
     display: none;
+  }
+  /* gallery page */
+  .vc-winners-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* media page */
+
+  .st-nazaire-main-content {
+    margin: 3rem;
+    padding: 0rem;
   }
   .st-nazaire-memorial {
     margin: 0;
