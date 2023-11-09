@@ -479,11 +479,11 @@ a {
   }
 }
 
-@media all and (max-width: 769px) {
+/* @media all and (max-width: 769px) {
   .st-nazaire-books-fig {
     flex-direction: column;
   }
-}
+} */
 
 @media all and (max-width: 1026px) {
   .st-nazaire-books-fig {
@@ -501,9 +501,9 @@ a {
 
 .st-nazaire-books-fig {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .st-nazaire-books-fig-img {
@@ -511,6 +511,7 @@ a {
 }
 
 .st-nazaire-books-fig-review {
+  padding-top: 1rem;
   margin-left: 1rem;
   text-align: justify;
 }
@@ -558,7 +559,7 @@ a {
   /* media page */
   .podcast {
     width: 90%;
-    margin: 15rem 2rem;
+    /* margin: 15rem 2rem; */
   }
 
   .youtube-documentary-video iframe {
@@ -586,4 +587,20 @@ a {
     margin: 0;
     width: 100%;
   }
+
+  .podcast-header {
+    text-align: center;
+  }
+  .st-nazaire-books {
+    margin: 0;
+    width: 100%;
+  }
+
+  .st-nazaire-books-fig {
+    padding: 2rem;
+  }
+
+  /* .st-nazaire-books-fig-review {
+    padding-top: 1rem;
+  } */
 }
