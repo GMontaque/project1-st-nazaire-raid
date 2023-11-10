@@ -278,7 +278,8 @@ footer {
 
 .tirpitz,
 .mapplan-detailed,
-.memorial-closeup {
+.memorial-closeup,
+.memorial-fullsize {
   width: 30%;
 }
 
@@ -287,10 +288,6 @@ footer {
   width: 100%;
   margin: 2rem 0 !important;
   padding: 0rem 2rem;
-}
-
-.memorial-fullsize {
-  width: 20%;
 }
 
 .st-nazaire-main-content-header {
@@ -532,7 +529,12 @@ a {
   .slide-show-container {
     width: 100%;
   }
-
+  .tirpitz,
+  .mapplan-detailed,
+  .memorial-closeup,
+  .memorial-fullsize {
+    width: 60%;
+  }
   .st-nazaire-memorial {
     width: 60%;
   }
@@ -542,10 +544,22 @@ a {
     top: 3%;
     width: 90%;
   }
-
+  .st-nazaire-main-content-header {
+    font-size: 2rem;
+  }
   .st-nazaire-main-content {
-    margin: 3rem 7rem;
-    padding: 5rem 4rem;
+    margin: 3rem 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .tirpitz,
+  .mapplan-detailed,
+  .memorial-closeup,
+  .memorial-fullsize {
+    width: 60%;
+  }
+  .st-nazaire-main-content-text {
+    font-size: 1.5rem;
   }
   /* gallery page */
   h1 {
@@ -580,6 +594,20 @@ a {
   .lg-screen-navbar {
     display: none;
   }
+  /* home page */
+  .st-nazaire-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tirpitz,
+  .mapplan-detailed,
+  .memorial-closeup,
+  .memorial-fullsize {
+    width: 95%;
+  }
+
   /* gallery page */
   .vc-winners-card {
     display: flex;
@@ -609,7 +637,5 @@ a {
     padding: 2rem;
   }
 
-  /* .st-nazaire-books-fig-review {
-    padding-top: 1rem;
-  } */
+
 }
