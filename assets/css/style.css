@@ -279,6 +279,13 @@ footer {
   width: 30%;
 }
 
+.hero-down-arrow {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  font-size: 5rem;
+}
+
 /* main content of index page */
 
 .index-main {
