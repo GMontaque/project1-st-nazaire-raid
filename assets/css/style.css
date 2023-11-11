@@ -20,11 +20,14 @@ body {
 }
 
 h1 {
-  width: 100%;
+  width: max-content;
   font-size: 8rem;
   text-align: center;
   margin-bottom: 3rem;
-  padding-top: 3rem;
+  padding: 3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 3rem auto;
 }
 /* navbar  */
 
@@ -227,10 +230,9 @@ footer {
   position: absolute;
   bottom: 0;
   right: 0;
-  border: 2px solid red;
   padding: 2rem;
   border-radius: 1rem;
-  color: red;
+  color: black;
   background: white;
 }
 
@@ -306,6 +308,8 @@ footer {
   height: fit-content;
   margin: 3rem 10rem;
   padding: 5rem 7rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .st-nazaire-main-content img {
@@ -432,6 +436,8 @@ blockquote {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 44vw;
   margin: 4rem 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .vc-winners-card-title {
@@ -511,6 +517,8 @@ form {
   margin: 0 auto;
   padding: 3rem;
   border: 2px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 form h2 {
   font-size: 2rem;
