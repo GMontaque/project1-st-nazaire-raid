@@ -79,15 +79,24 @@ footer {
   align-items: center;
   margin-top: 3rem;
 }
+.footer-section {
+  width: 33%;
+}
 
 .footer-external {
-
   margin: 3rem 0rem;
   display: flex;
-    flex-direction: column;
-    /* width: min-content; */
-    max-width: 33%;
-    align-items: center;
+  flex-direction: column;
+  /* width: min-content; */
+  align-items: center;
+}
+
+.footer-external-img-town {
+  width: 20%;
+}
+
+.footer-external-img-classified {
+  width: 50%;
 }
 
 /* mobile nav  */
@@ -314,7 +323,7 @@ footer {
 
 .st-nazaire-main-content-text {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 0 2rem;
   margin-bottom: 2rem;
 }
@@ -555,6 +564,14 @@ a {
   .st-nazaire-memorial {
     width: 60%;
   }
+
+  .footer-external-img-town {
+    width: 30%;
+  }
+
+  .footer-external-img-classified {
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 769px) {
   .hero-header-text {
@@ -577,6 +594,13 @@ a {
   }
   .st-nazaire-main-content-text {
     font-size: 1.5rem;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+  .footer-section {
+    width: 50%;
   }
   /* gallery page */
   h1 {
@@ -625,6 +649,23 @@ a {
     width: 95%;
   }
 
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .footer-external-img-town {
+    width: 25%;
+  }
+  .footer-external-img-classified {
+    width: 45%;
+  }
+  .footer-external-img-history {
+    width: 80%;
+  }
   /* gallery page */
   .vc-winners-card {
     display: flex;
