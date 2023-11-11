@@ -101,7 +101,7 @@ footer {
 }
 
 .footer-external-img-classified {
-  width: 50%;
+  max-width: 60%;
 }
 
 /* mobile nav  */
@@ -479,6 +479,11 @@ a {
   font-size: 2rem;
 }
 
+.montgomery {
+  width: 100%;
+  border: none;
+}
+
 /* st nazaire books */
 .st-nazaire-books {
   display: flex;
@@ -616,14 +621,6 @@ fieldset input[type="checkbox"] {
   .st-nazaire-memorial {
     width: 60%;
   }
-  /* footer */
-  .footer-external-img-town {
-    width: 30%;
-  }
-
-  .footer-external-img-classified {
-    width: 60%;
-  }
 
   /* Media page */
 
@@ -735,10 +732,11 @@ fieldset input[type="checkbox"] {
     width: 25%;
   }
   .footer-external-img-classified {
-    width: 45%;
+    max-width: 100%;
   }
   .footer-external-img-history {
-    width: 80%;
+    max-width: 100%;
+    padding: 0rem 4rem;
   }
   /* gallery page */
   .vc-winners-card {
