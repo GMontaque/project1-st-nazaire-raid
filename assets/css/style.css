@@ -20,8 +20,6 @@ h1 {
   width: 100%;
   font-size: 8rem;
   text-align: center;
-  /* display: flex;
-  justify-content: center; */
   margin-bottom: 3rem;
   padding-top: 3rem;
 }
@@ -71,11 +69,7 @@ main {
 footer {
   display: flex;
   justify-content: space-evenly;
-  /* justify-content: space-between; */
-  /* height: 11rem; */
   background: grey;
-  /* top: 0;
-  width: 100%; */
   align-items: center;
   margin-top: 3rem;
 }
@@ -87,7 +81,6 @@ footer {
   margin: 3rem 0rem;
   display: flex;
   flex-direction: column;
-  /* width: min-content; */
   align-items: center;
 }
 
@@ -142,7 +135,6 @@ footer {
   width: 10rem;
 }
 .mobile-navbar .mobile-navlinks {
-  /* padding-top: 10rem; */
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
@@ -449,8 +441,7 @@ a {
 
 .youtube-documentary {
   display: flex;
-  flex-direction: column; /* align-items:
-	center; */
+  flex-direction: column;
   width: 100%;
 }
 .youtube-documentary-innervid {
@@ -516,7 +507,6 @@ fieldset label {
 }
 
 fieldset input[type="checkbox"] {
-  /* margin-left: 11rem; */
   width: auto;
   transform: scale(1.5);
 }
@@ -572,12 +562,6 @@ fieldset input[type="checkbox"] {
   }
 }
 
-/* @media all and (max-width: 769px) {
-  .st-nazaire-books-fig {
-    flex-direction: column;
-  }
-} */
-
 @media all and (max-width: 1026px) {
   .st-nazaire-books-fig {
     flex-direction: column;
@@ -594,9 +578,7 @@ fieldset input[type="checkbox"] {
 
 .st-nazaire-books-fig {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* border: 2px solid black; */
 }
 
 .st-nazaire-books-fig-img {
@@ -684,7 +666,6 @@ fieldset input[type="checkbox"] {
   /* media page */
   .podcast {
     width: 90%;
-    /* margin: 15rem 2rem; */
   }
 
   .youtube-documentary-video iframe {
