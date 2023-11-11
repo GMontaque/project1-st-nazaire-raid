@@ -1,4 +1,4 @@
-/* general styling */
+/******* general styling **********/
 
 html {
   box-sizing: border-box;
@@ -20,16 +20,16 @@ body {
 }
 
 h1 {
-  width: max-content;
+  width: 100%;
   font-size: 8rem;
   text-align: center;
   margin-bottom: 3rem;
   padding: 3rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
-  margin: 3rem auto;
+  margin-bottom: 3rem;
 }
-/* navbar  */
+/******* navbar  **********/
 
 header {
   position: fixed;
@@ -37,7 +37,6 @@ header {
   justify-content: space-between;
   height: 10rem;
   background: grey;
-
   top: 0;
   width: 100%;
   align-items: center;
@@ -76,7 +75,7 @@ main {
   max-width: 100vw;
 }
 
-/* footer style */
+/********** footer style ***********/
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -166,7 +165,7 @@ footer {
   transform: translateX(0);
 }
 
-/* index page */
+/********** index page ***********/
 
 .hero {
   width: 100%;
@@ -194,7 +193,6 @@ footer {
   position: absolute;
   background-position: center;
   background-size: cover;
-
   display: flex;
 }
 
@@ -295,7 +293,7 @@ footer {
   font-size: 5rem;
 }
 
-/* main content of index page */
+/************ main content of index page *************/
 
 .index-main {
   display: flex;
@@ -365,7 +363,7 @@ footer {
   font-size: 2rem;
 }
 
-/* gallery page */
+/************ gallery page *************/
 
 .row {
   display: flex;
@@ -373,7 +371,7 @@ footer {
   padding: 0 4px;
 }
 
-/* Create four equal columns */
+/* Creates the columns */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -392,23 +390,6 @@ footer {
 
 .myDIV:hover + .hide {
   display: block;
-}
-
-/* makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 blockquote {
@@ -461,7 +442,7 @@ a {
   color: black;
 }
 
-/* media page */
+/************* media page ***************/
 
 .youtube-documentary {
   display: flex;
@@ -511,11 +492,14 @@ a {
   flex: 1 100%;
 }
 
+.st-nazaire-books-fig {
+  flex: 1 0 0;
+}
+
 form {
   width: 40rem;
   margin: 0 auto;
   padding: 3rem;
-  /* border: 2px solid black; */
   border-radius: 5rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
@@ -584,21 +568,6 @@ fieldset input[type="checkbox"] {
   box-shadow: 0 0 0 2px white, 0 0 0 3px #27ae60;
 }
 
-@media all and (min-width: 600px) {
-  .st-nazaire-books-fig {
-    flex: 1 0 0;
-  }
-}
-
-@media all and (max-width: 1026px) {
-  .st-nazaire-books-fig {
-    flex-direction: column;
-  }
-  .st-nazaire-books {
-    margin: 0 3rem;
-  }
-}
-
 .st-nazaire-books-head {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -625,11 +594,10 @@ fieldset input[type="checkbox"] {
   font-size: 1.5rem;
   padding: 3rem;
 }
-/* media query  */
-
-/* navbar mobile */
+/************** media query *******************/
 
 @media only screen and (max-width: 1026px) {
+  /* index page */
   .hero-header-text {
     top: 15%;
     width: 35%;
@@ -646,7 +614,7 @@ fieldset input[type="checkbox"] {
   .st-nazaire-memorial {
     width: 60%;
   }
-
+  /* footer */
   .footer-external-img-town {
     width: 30%;
   }
@@ -654,8 +622,27 @@ fieldset input[type="checkbox"] {
   .footer-external-img-classified {
     width: 60%;
   }
+
+  /* Media page */
+
+  .st-nazaire-books-fig {
+    flex-direction: column;
+  }
+  .st-nazaire-books {
+    margin: 0 3rem;
+  }
+}
+
+/* gallery page - changes image colums from 4 to 2 */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 @media only screen and (max-width: 769px) {
+  /* index page */
   .hero-header-text {
     top: 3%;
     width: 90%;
@@ -677,7 +664,7 @@ fieldset input[type="checkbox"] {
   .st-nazaire-main-content-text {
     font-size: 1.5rem;
   }
-
+  /* footer */
   footer {
     flex-wrap: wrap;
   }
@@ -702,8 +689,16 @@ fieldset input[type="checkbox"] {
   }
 }
 
+/* gallery page changes image colums from 2 to 1 */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 426px) {
-  /* general */
+  /* mobile nav bar */
 
   .mobile-navbar {
     display: block;
@@ -725,7 +720,7 @@ fieldset input[type="checkbox"] {
   .memorial-fullsize {
     width: 95%;
   }
-
+  /* footer */
   footer {
     flex-direction: column;
   }
