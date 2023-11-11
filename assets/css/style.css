@@ -70,13 +70,24 @@ main {
 /* footer style */
 footer {
   display: flex;
-  justify-content: space-between;
-  height: 11rem;
+  justify-content: space-evenly;
+  /* justify-content: space-between; */
+  /* height: 11rem; */
   background: grey;
-  top: 0;
-  width: 100%;
+  /* top: 0;
+  width: 100%; */
   align-items: center;
   margin-top: 3rem;
+}
+
+.footer-external {
+
+  margin: 3rem 0rem;
+  display: flex;
+    flex-direction: column;
+    /* width: min-content; */
+    max-width: 33%;
+    align-items: center;
 }
 
 /* mobile nav  */
