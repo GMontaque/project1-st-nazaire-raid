@@ -37,6 +37,7 @@ header {
   justify-content: space-between;
   height: 10rem;
   background: grey;
+
   top: 0;
   width: 100%;
   align-items: center;
@@ -53,7 +54,7 @@ header {
 }
 #navlinks li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #navlinks li {
@@ -63,7 +64,7 @@ header {
 }
 
 #navlinks li a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 
 .active {
@@ -283,7 +284,6 @@ footer {
   border: 2px solid red;
   padding: 2rem;
   border-radius: 1rem;
-  color: red;
   font-size: 5rem;
   width: 30%;
 }
@@ -392,7 +392,6 @@ footer {
 
 .myDIV:hover + .hide {
   display: block;
-  color: red;
 }
 
 /* makes a two column-layout instead of four columns */
@@ -516,9 +515,11 @@ form {
   width: 40rem;
   margin: 0 auto;
   padding: 3rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border-radius: 5rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
 }
 form h2 {
   font-size: 2rem;
@@ -619,7 +620,9 @@ fieldset input[type="checkbox"] {
 }
 .style-test {
   border-radius: 3rem;
-  background-color: beige;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
   padding: 3rem;
 }
 /* media query  */
@@ -684,7 +687,6 @@ fieldset input[type="checkbox"] {
   /* gallery page */
   h1 {
     font-size: 4rem;
-    color: red;
   }
   .vc-winners-card {
     max-width: 100%;
@@ -702,9 +704,6 @@ fieldset input[type="checkbox"] {
 
 @media screen and (max-width: 426px) {
   /* general */
-  h1 {
-    color: red;
-  }
 
   .mobile-navbar {
     display: block;
