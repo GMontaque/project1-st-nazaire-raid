@@ -496,6 +496,76 @@ a {
   flex: 1 100%;
 }
 
+form {
+  width: 40rem;
+  margin: 0 auto;
+  padding: 3rem;
+  border: 2px solid black;
+}
+form h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+fieldset label {
+  font-size: 2rem;
+  width: 125px;
+}
+
+fieldset input[type="checkbox"] {
+  /* margin-left: 11rem; */
+  width: auto;
+  transform: scale(1.5);
+}
+#first-name,
+#last-name,
+#email-address {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #2c3e50;
+  font-size: 13px;
+}
+
+.checkbox-buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.checkbox-buttons:first-child {
+  margin-top: 1rem;
+}
+
+.checkbox-buttons div {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 100px;
+  background: #27ae60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.button:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27ae60;
+}
+
 @media all and (min-width: 600px) {
   .st-nazaire-books-fig {
     flex: 1 0 0;
@@ -693,5 +763,9 @@ a {
 
   .st-nazaire-books-fig {
     padding: 2rem;
+  }
+
+  form {
+    width: 100%;
   }
 }
