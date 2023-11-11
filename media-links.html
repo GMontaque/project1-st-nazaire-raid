@@ -192,71 +192,64 @@
         </figure>
       </section>
       <section>
-        <form id="signup-form" method="" action="">
+        <form id="signup" method="" action="">
           <h2>
             Sign up for <i class="fa-solid fa-book"></i> book and
             <i class="fa-solid fa-film"></i> film recommendations
           </h2>
-          <label for="first_name">First Name</label>
-          <input
-            type="text"
-            name="first_name"
-            id="first_name"
-            class="text-input"
-            required
-          />
-          <br />
-          <label for="last_name">Last Name</label>
-          <input
-            type="text"
-            name="last_name"
-            id="last_name"
-            class="text-input"
-            required
-          />
-          <br />
-          <label for="email_address">Email Address</label>
-          <input
-            type="email"
-            name="email_address"
-            id="email_address"
-            class="text-input"
-            required
-          />
-          <br />
-          <div class="radio-buttons">
-            <div>
-              <label for="road">Books</label>
-              <input
-                type="radio"
-                name="running_preference"
-                id="road"
-                value="road"
-                required
-                checked
-              />
+          <fieldset>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required />
+          </fieldset>
+
+          <fieldset>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required />
+          </fieldset>
+
+          <fieldset>
+            <label for="email-address">Email Address</label>
+            <input
+              type="email"
+              name="email-address"
+              id="email-address"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <div class="checkbox-buttons">
+              <div>
+                <label for="road">Books</label>
+                <input
+                  type="checkbox"
+                  name="media-choice"
+                  id="media-choice-book"
+                  value="books"
+                  required
+                />
+              </div>
+              <div>
+                <label for="media-choice-film">Films</label>
+                <input
+                  type="checkbox"
+                  name="media-choice"
+                  id="media-choice-film"
+                  value="films"
+                  required
+                />
+              </div>
+              <div>
+                <label for="media-choice-doc">Documentaries</label>
+                <input
+                  type="checkbox"
+                  name="media-choice"
+                  id="media-choice-doc"
+                  value="documentary"
+                  required
+                />
+              </div>
             </div>
-            <div>
-              <label for="trail">Films</label>
-              <input
-                type="radio"
-                name="running_preference"
-                id="trail"
-                value="trail"
-                required
-              />
-            </div>
-            <div>
-              <label for="both">documentaries</label>
-              <input
-                type="radio"
-                name="running_preference"
-                id="both"
-                value="both"
-                required
-              />
-            </div>
-          </div>
+          </fieldset>
           <button type="submit" class="join-button">Submit</button>
         </form>
       </section>
