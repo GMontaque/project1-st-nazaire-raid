@@ -183,7 +183,12 @@ footer {
   position: absolute;
   background-position: center;
   background-size: cover;
+
   display: flex;
+}
+
+.wrapper-three {
+  background-size: 100% 100%;
 }
 
 /* CSS Styles for each slide */
@@ -264,7 +269,7 @@ footer {
 
 .hero-header-text {
   position: absolute;
-  top: 15%;
+  top: 36%;
   left: 5%;
   border: 2px solid red;
   padding: 2rem;
