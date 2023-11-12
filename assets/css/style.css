@@ -497,16 +497,16 @@ a {
 
 .st-nazaire-books > * {
   padding: 10px;
-  flex: 1 100%;
+  /* flex: 1 100%; */
 }
 
 .st-nazaire-books-fig {
-  flex: 1 0 0;
+  flex: 1 0 100%;
 }
 
 form {
   width: 40rem;
-  margin: 0 auto;
+  margin: 11rem auto;
   padding: 3rem;
   border-radius: 5rem;
   color: white;
@@ -584,16 +584,22 @@ fieldset input[type="checkbox"] {
 .st-nazaire-books-fig {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .st-nazaire-books-fig-img {
-  width: 50%;
+  width: 25%;
+}
+
+.order {
+  order: 2;
 }
 
 .st-nazaire-books-fig-review {
-  padding-top: 1rem;
-  margin-left: 1rem;
+  /* padding-top: 1rem; */
+  margin: 2rem;
   text-align: justify;
+  max-width: 75rem;
 }
 .style-test {
   border-radius: 3rem;
@@ -602,6 +608,7 @@ fieldset input[type="checkbox"] {
   font-size: 1.5rem;
   padding: 3rem;
 }
+
 /************** media query *******************/
 
 @media only screen and (max-width: 1026px) {
@@ -625,11 +632,21 @@ fieldset input[type="checkbox"] {
 
   /* Media page */
 
-  .st-nazaire-books-fig {
-    flex-direction: column;
+  .st-nazaire-books {
+    max-width: 100%;
+    width: 100%;
+  }
+  .st-nazaire-books-fig-review {
+    margin: 2rem;
+  }
+  .st-nazaire-books-fig-img {
+    width: 40%;
   }
   .st-nazaire-books {
-    margin: 0 3rem;
+    padding: 0 2rem;
+  }
+  .style-test {
+    font-size: 1.4rem;
   }
 }
 
@@ -639,6 +656,14 @@ fieldset input[type="checkbox"] {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+
+  .st-nazaire-books-fig {
+    flex-direction: column;
+  }
+
+  .order {
+    order: 0;
   }
 }
 @media only screen and (max-width: 769px) {
@@ -765,9 +790,19 @@ fieldset input[type="checkbox"] {
   }
 
   .st-nazaire-books-fig {
-    padding: 2rem;
+    padding: 0rem;
+    margin: 3rem 0rem;
   }
-
+  .st-nazaire-books-fig-img {
+    width: 75%;
+  }
+  .st-nazaire-books-fig-review {
+    margin: 0;
+    padding-top: 1rem;
+  }
+  .style-test {
+    font-size: 1.3rem;
+  }
   form {
     width: 100%;
   }
