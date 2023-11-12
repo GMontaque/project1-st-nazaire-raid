@@ -32,7 +32,9 @@
       <!-- nav bar for mobile -->
       <div class="mobile-navbar">
         <div class="container mobile-navbar-container">
-          <label for="header-checkbox"></label>
+          <label for="header-checkbox" style="display: none"
+            >mobile header checkbox</label
+          >
           <input
             id="header-checkbox"
             class="checkbox"
@@ -49,9 +51,9 @@
               id="mobile-navlinks-logo"
             />
             <ul style="height: 40rem">
-              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="media-links.html">Mutli Media</a></li>
+              <li><a href="media-links.html" class="active">Mutli Media</a></li>
             </ul>
           </nav>
         </div>
@@ -59,9 +61,9 @@
       <!-- nav bar for non mobile -->
       <nav class="lg-screen-navbar">
         <ul id="navlinks">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="media-links.html">Mutli Media</a></li>
+          <li><a href="media-links.html" class="active">Mutli Media</a></li>
         </ul>
       </nav>
     </header>
@@ -73,7 +75,7 @@
       <section class="youtube-documentary">
         <div class="youtube-documentary-innervid">
           <div class="youtube-documentary-head">
-            <h4 class="subhead">The Greatest Raid of All</h4>
+            <h2 class="subhead">The Greatest Raid of All</h2>
           </div>
           <div class="youtube-documentary-video">
             <iframe
@@ -88,17 +90,17 @@
       <!-- podcast and books -->
       <section class="podcast">
         <!-- first hand account podcast -->
-        <h4 class="podcast-header subhead">
+        <h2 class="podcast-header subhead">
           <a
             style="color: white; text-decoration: none"
             href="https://evergreenpodcasts.com/warriors-in-their-own-words/lt-col-r-k-montgomery-the-st-nazaire-raid"
             target="_blank"
             rel="noopener"
-            aria-label="link takes you to the source of the podcast (opens in a new tab)"
+            aria-label="Lt Col R.K. Montgomery: The St. Nazaire Raid podcast (opens in a new tab)"
           >
             Lt Col R.K. Montgomery: The St. Nazaire Raid
           </a>
-        </h4>
+        </h2>
         <iframe
           class="montgomery"
           title="interview with Lt Col R.K. Montgomery who took part in St Nazaire Raid"
@@ -109,7 +111,7 @@
 
       <section class="st-nazaire-books">
         <div class="st-nazaire-books-head">
-          <h4 class="subhead">Looking for a good book?</h4>
+          <h2 class="subhead">Looking for a good book?</h2>
         </div>
         <figure class="st-nazaire-books-fig">
           <img
@@ -151,7 +153,7 @@
                   color: white;
                   text-decoration: underline;
                 "
-                aria-label="link takes you to a page where you can purchase a copy of the book (opens in a new tab)"
+                aria-label="buy now link takes you to a page where you can purchase a copy of the book (opens in a new tab)"
                 >Buy Now</a
               >
             </div>
@@ -196,7 +198,7 @@
                   color: white;
                   text-decoration: underline;
                 "
-                aria-label="link takes you to a page where you can purchase a copy of the book (opens in a new tab)"
+                aria-label="buy now link takes you to a page where you can purchase a copy of the book (opens in a new tab)"
                 >Buy Now</a
               >
             </div>
@@ -280,7 +282,7 @@
           class="footer-external"
           target="_blank"
           rel="noopener"
-          aria-label="the link takes you to the offical St Nazaire town website (opens in a new tab)"
+          aria-label="Visit St Nazaire link to the offical town website (opens in a new tab)"
           href="https://www.saint-nazaire-tourisme.uk/explore/discover-our-heritage/war-and-peace-stories/"
         >
           <img
@@ -290,6 +292,7 @@
             style="margin-top: -2rem"
           />
           <p class="footer-external-text">Visit St Nazaire</p>
+          s
         </a>
       </section>
       <section class="footer-section">
@@ -298,7 +301,7 @@
           class="footer-external"
           target="_blank"
           rel="noopener"
-          aria-label="The link takes you to a documentary on St Nazaire  (opens in a new tab)"
+          aria-label="Dan Snow's History Hit documentary link about St Nazaire raid  (opens in a new tab)"
           href="https://shows.acast.com/dansnowshistoryhit/episodes/destroying-a-nazi-stronghold-the-st-nazaire-raid"
         >
           <img
@@ -316,7 +319,7 @@
           class="footer-external"
           target="_blank"
           rel="noopener"
-          aria-label="the link takes you to a page containing Declassifeid documents about the battle (opens in a new tab)"
+          aria-label="Declassifeid war Documents link takes you to the Declassifeid documents about the battle (opens in a new tab)"
           href="https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf"
         >
           <img
