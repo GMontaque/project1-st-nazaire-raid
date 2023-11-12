@@ -31,6 +31,11 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
   margin-bottom: 3rem;
 }
+
+.subhead {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 /******* navbar  **********/
 
 header {
@@ -497,11 +502,44 @@ a {
 
 .st-nazaire-books > * {
   padding: 10px;
-  /* flex: 1 100%; */
 }
 
 .st-nazaire-books-fig {
   flex: 1 0 100%;
+}
+
+.st-nazaire-books-head {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  flex: 1 100%;
+}
+
+.st-nazaire-books-fig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.st-nazaire-books-fig-img {
+  width: 25%;
+}
+
+.order {
+  order: 2;
+}
+
+.st-nazaire-books-fig-review {
+  /* padding-top: 1rem; */
+  margin: 2rem;
+  text-align: justify;
+  max-width: 75rem;
+}
+.style-test {
+  border-radius: 3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  padding: 3rem;
 }
 
 form {
@@ -574,39 +612,6 @@ fieldset input[type="checkbox"] {
 }
 .button:hover {
   box-shadow: 0 0 0 2px white, 0 0 0 3px #27ae60;
-}
-
-.st-nazaire-books-head {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.st-nazaire-books-fig {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.st-nazaire-books-fig-img {
-  width: 25%;
-}
-
-.order {
-  order: 2;
-}
-
-.st-nazaire-books-fig-review {
-  /* padding-top: 1rem; */
-  margin: 2rem;
-  text-align: justify;
-  max-width: 75rem;
-}
-.style-test {
-  border-radius: 3rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  font-size: 1.5rem;
-  padding: 3rem;
 }
 
 /************** media query *******************/
