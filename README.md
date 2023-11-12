@@ -8,7 +8,7 @@
 
 ![picture of the mockup of the website](assets/images/Capture.PNG)
 
-Here i have created a website where a user can view infomration about the St Nazaire  raid which is not very famous as some other battle such as D-day or the battle of berlin. But that i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
+Here i have created a website where a user can view infomration about the St Nazaire raid which is not very famous as some other battle such as D-day or the battle of berlin. But that i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
 
 Through the website you will where the plan initally got it routes and the reason such a plan had to come together, and then it will be explained to you both the battle itelf and the stuggles and problems that was faced by the attacking force, before finally finishing by showing whwere a person can visit the war memorial for this battle.
 
@@ -22,7 +22,7 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - To inform users about the raid and share the history
 - To show the men who took part and what they endured
-- breakdown why the raid happened and how it happened through different media 
+- breakdown why the raid happened and how it happened through different media
 
 **What are the needs of our users and how do we address them?**
 
@@ -65,7 +65,6 @@ There are also links to furhter docuemnts and videos where you can find further 
   - here the battle is broken down into background, plan, battle and aftermath, each section explains the battle at that stage
   - images have been included to help the user visual what is being explained
   - finally an image of the memorial has been included so user can clearly read what has been written to provide an emotive response to what they have read
-  
 
 ![home page](assets/images/St-Nazaire-mockup.png)
 
@@ -85,31 +84,36 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - **Gallery**
 
-  - The gallery provides images from the battle both before and after and will allow the user to better understand what happened 
+  - The gallery provides images from the battle both before and after and will allow the user to better understand what happened
   - will provide the user with supporting images to see what the meet ups look like.
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![gallery](assets/images/St-Nazaire-mockup.png)
 
 - **VC winners**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - This section aims to highlight 5 inviduals who exceled themsevles during the battle and one the highest award teh victoria cross.
+  - in this section citation have been included which explain the reason why they were awared the victoria cross
+    -there is also a link to a wbsite which contains all VC winners and provide some further infomration about each person who one
+  - this section is important as it gives an insite into the real people who were there
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![vc winers](assets/images/St-Nazaire-mockup.png)
 
 - **embeded video and podcast**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- on this page there is a lot of mutli media content
+- first is a video that was created by jeremy clarkson which goes over the battle and has some first hand account from people who were there, it also shows content not included in other asspects of the site
+- there is also a vocei recording by the commander of the battle where he talks through the battle
+- these sections ahve been included to allows uers who absob infomration thorugh video to all get a full ubnderstanding of the battle
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![embeded video](assets/images/St-Nazaire-mockup.png)
 
 - **Books on the raid**
 
   - The gallery will provide the user with supporting images to see what the meet ups look like.
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![raid books](assets/images/St-Nazaire-mockup.png)
 
 ## page breakdown
 
@@ -130,8 +134,14 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 ### Typography and color scheme
 
-- talk about the colours used
-- provide image example of colours
+- for the font i have used (insert name)
+  - i ahve used this font as i was looking for a style that would appear to be hand wriotten
+  - i have also used this font as the main background of the site contains an image from a declassifed doucemnt about the raid, i was looking for a font style that match this style of text
+  - i also wanted the text to almost look as if it was from that time period
+- for the colours i ahve kept this to simple colours of grey black and white
+  - these colours ahv been choosen due to the time period the website cover 1939-1945
+  - during this period most images were black and white
+  - also i wanted the colour scheme to follow the background which is taken from a declassifed document
 
 ### WIREFRAMES
 
