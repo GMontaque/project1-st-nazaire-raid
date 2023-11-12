@@ -150,12 +150,13 @@ There are also links to furhter docuemnts and videos where you can find further 
 ![Home page made in wireframes](assets/images/St-Nazaire-mockup.png)
 
 - the idea of the the homepage was to create something that had a large clear image at the top and within the few seconds the user should clearly be able to tell what the website is about
-- the homepage was also to contain the content of the battle and break it down into a number of sections either 4 or 5 
+- the homepage was also to contain the content of the battle and break it down into a number of sections either 4 or 5
 - each section was to have both image and text to balance out the page
 
 #### GALLERY PAGE
 
 ![gallery page made in wireframes](assets/images/St-Nazaire-mockup.png)
+
 - this page was to be made up of 2 parts a gallery section and vc winners section
 - the gallery section is to include all real images either from before or after the battle and aswell as images related to the battle
 - the images would be responsive in desgin
@@ -164,6 +165,7 @@ There are also links to furhter docuemnts and videos where you can find further 
 #### media PAGE
 
 ![media page made in wireframes](assets/images/St-Nazaire-mockup.png)
+
 - this page included some more visual content as well as some offical videos and interviews
 - the page is to comtain some embed content from other site to give people a more broad expericne
 - the layout would be set to one or two videos coupled with some book recommendations
@@ -172,8 +174,10 @@ There are also links to furhter docuemnts and videos where you can find further 
 ## Testing
 
 - i have tested the website in different broswers such as google, firefox and edge
-- used dev tools to test website
-- used lighthouse to test website
+- on each browser i have gone into the dev tools and tested the websiet at different screen sizes
+- I have used lighthouse to test the website as per the image below:
+
+![iamge showing lighthouse result](assets/images/St-Nazaire-mockup.png)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -185,9 +189,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing
 
-- HTML
+- I have tested all HTML pages on the HTML validator and there are no errors
+
+  - home page
+  - gallery page
+  - media page
+
+- when building the website have used an extension called pritter which has resulted in the warning that you can see on each screenshot
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
+- When testing my CSS as you can see from the below image tehre were no errors
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ## Deployment
