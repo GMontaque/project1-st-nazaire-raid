@@ -8,7 +8,7 @@
 
 ![picture of the mockup of the website](assets/images/Capture.PNG)
 
-Here i have created a website where a user can view infomration about a raid that is not very famous as some other battle such as D-day or the battle of berlin. But that i argue should equally be placed up there and what was done on that faulty day was something that people had said was considered to be not possible and a sucide mission.
+Here i have created a website where a user can view infomration about the St Nazaire  raid which is not very famous as some other battle such as D-day or the battle of berlin. But that i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
 
 Through the website you will where the plan initally got it routes and the reason such a plan had to come together, and then it will be explained to you both the battle itelf and the stuggles and problems that was faced by the attacking force, before finally finishing by showing whwere a person can visit the war memorial for this battle.
 
@@ -22,18 +22,20 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - To inform users about the raid and share the history
 - To show the men who took part and what they endured
-- breakdown why the raid happened
+- breakdown why the raid happened and how it happened through different media 
 
 **What are the needs of our users and how do we address them?**
 
-- Be able to find out information about the raid
+- Be able to find out information about the raid easily
 - Understanding the raid in more detail
-- User should feel they have a better understanding about the raid
+- User should feel they have a better understanding about the raid after going through the site
 
-**What is the customer**
+**how the site meets the needs of user and buiness**
 
-- A person with an interest in ww2
-- Content needs to be easy to read and digest nothing to heavy
+- A person with an interest in ww2 and famous battle can go through and abosirbe information
+- there are further links to even more information
+- images ahve been added so people can visual the battle as well as reading ti
+- Content is easy to read and digest but provide all the detail requuire
 
 ## Features
 
@@ -43,41 +45,48 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - **Navigation Bar**
 
-  - this appears on all 3 pages and is identical, it contains a full navigation bar and a logo which should the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. in the navigation bar there are links to the home page, gallery and media page.
+  - this appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. in the navigation bar there are links to the home page, gallery and media page.
   - using the naviatation bar the user can navigate all 3 pages, the logo is also a navigation link, when clicked on it send the user back to the home page.
 
 ![Nav Bar](assets/images/St-Nazaire-mockup.png)
 
 - **The landing page image**
 
-  - content to write
+  - this is the first page the user sees when clicking on the website
+  - the user is greeting by a navigation bar, a hearo image with a text overlay and the title of the webiste
+  - the text of the hero image is there to draw the users eye and will put to them a question, the idea being to reafirm what site they ahve clicked on and to also peak there interet to look further
+  - the hero section contains 3 images that roate
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![landing page](assets/images/St-Nazaire-mockup.png)
 
 - **Home Page**
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+  - the homepage contains the main written content of the website
+  - here the battle is broken down into background, plan, battle and aftermath, each section explains the battle at that stage
+  - images have been included to help the user visual what is being explained
+  - finally an image of the memorial has been included so user can clearly read what has been written to provide an emotive response to what they have read
+  
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![home page](assets/images/St-Nazaire-mockup.png)
 
 - **Battle information timeline**
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
   - This section will be updated as these times change to keep the user up to date.
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![battle information](assets/images/St-Nazaire-mockup.png)
 
 - **Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the other sites where the user can find out information about the battle
+  - The footer is valuable as it allows people to find out further infomration and keep there interest for longer on the topic and site
 
-![Nav Bar](assets/images/St-Nazaire-mockup.png)
+![footer](assets/images/St-Nazaire-mockup.png)
 
 - **Gallery**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
+  - The gallery provides images from the battle both before and after and will allow the user to better understand what happened 
+  - will provide the user with supporting images to see what the meet ups look like.
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
 ![Nav Bar](assets/images/St-Nazaire-mockup.png)

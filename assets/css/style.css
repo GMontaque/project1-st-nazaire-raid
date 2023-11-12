@@ -671,7 +671,6 @@ fieldset input[type="checkbox"] {
 /* gallery page - changes image colums from 4 to 2 */
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
