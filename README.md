@@ -218,9 +218,9 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 - when testing the website on different devices i have used the pre-defined dimensions that come with the developer tool on google chrome
-- i have also reasearch a number of website which have described the most connon screen size for devices in 2023 for desktop and mobile - https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design
+- i have also reasearch a number of website which have described the most connon screen size for devices in 2023 for desktop and mobile - https://www.designrush.com/agency/web-development-companies/trends/website-dimensions
 
-![image showing btoh mobile and pc devices](assets/images/St-Nazaire-mockup.png)
+![Media Page wireframe](assets/images/most-common-screen-resolutions-worldwide-content.jpg)
 
 ## Deployment
 
