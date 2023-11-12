@@ -110,8 +110,9 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - **Books on the raid**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - Here the user can see books which realte to the raid and also books that are written from histroians and first hand accounts if they prefer to read
+  - the section also provides links to where they can be more for further information
+  - this section is useful as it gives teh suer more ways to interact and absord the information provided
 
 ![raid books](assets/images/St-Nazaire-mockup.png)
 
@@ -178,6 +179,15 @@ There are also links to furhter docuemnts and videos where you can find further 
 - I have used lighthouse to test the website as per the image below:
 
 ![iamge showing lighthouse result](assets/images/St-Nazaire-mockup.png)
+
+- validation from homepage
+  ![iamge showing homepage result](assets/images/St-Nazaire-mockup.png)
+
+- validation for gallery page
+  ![iamge showing gallery result](assets/images/St-Nazaire-mockup.png)
+
+- validation for media page
+  ![iamge showing media result](assets/images/St-Nazaire-mockup.png)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
