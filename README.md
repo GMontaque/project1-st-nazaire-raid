@@ -149,9 +149,17 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 ![Home page made in wireframes](assets/images/St-Nazaire-mockup.png)
 
+- the idea of the the homepage was to create something that had a large clear image at the top and within the few seconds the user should clearly be able to tell what the website is about
+- the homepage was also to contain the content of the battle and break it down into a number of sections either 4 or 5 
+- each section was to have both image and text to balance out the page
+
 #### GALLERY PAGE
 
-![Safari gallery page made in wireframes](assets/images/St-Nazaire-mockup.png)
+![gallery page made in wireframes](assets/images/St-Nazaire-mockup.png)
+- this page was to be made up of 2 parts a gallery section and vc winners section
+- the gallery section is to include all real images either from before or after the battle and aswell as images related to the battle
+- the images would be responsive in desgin
+- below or about that there would be a vc winners section, this would describe the person and provide comments about them
 
 #### media PAGE
 
