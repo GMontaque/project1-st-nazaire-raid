@@ -37,6 +37,10 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 2rem 2rem;
 }
+
+a {
+  text-decoration: none;
+}
 /******* navbar  **********/
 
 header {
@@ -88,11 +92,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   background: grey;
-  align-items: center;
   margin-top: 3rem;
 }
 .footer-section {
   width: 33%;
+  position: relative;
 }
 
 .footer-external {
@@ -102,12 +106,15 @@ footer {
   align-items: center;
 }
 
-.footer-external-img-town {
-  width: 20%;
+.footer-external-imgs {
+  max-width: 24%;
+  width: 100%;
 }
 
-.footer-external-img-classified {
-  max-width: 60%;
+.footer-external-text {
+  position: absolute;
+  bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
 /* mobile nav  */
@@ -701,6 +708,9 @@ fieldset input[type="checkbox"] {
   }
   .footer-section {
     width: 50%;
+  }
+  .footer-external {
+    margin: 3rem 2rem;
   }
   /* gallery page */
   h1 {
