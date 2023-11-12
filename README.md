@@ -189,13 +189,13 @@ There are also links to furhter docuemnts and videos where you can find further 
 - validation for media page
   ![iamge showing media result](assets/images/St-Nazaire-mockup.png)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 ### Validator Testing
 
@@ -223,14 +223,35 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### ISSUES/Bugs
 
-- talk about issue with screen width
-- talk about issue with embeded videos and podcast
+- inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
+  - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
+- another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
+  - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
+
 
 ## Credits
+
+#### home page
+
+- the content of the text on the home page came from the follow websites:
+  - https://www.combinedops.com/St%20Nazaire.htm
+
+#### gallery page
+ - the vc content came from the follow website
+  - https://vcgca.org/our-people/action-and-memorial-locations
+
+#### media page
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
+
+#### footer
+
+- in the footer from left to right the information was gained as follows
+  - first link is the logo for the St Naizare town webiste and the link takes you to the side - https://www.saint-nazaire-tourisme.uk/explore/discover-our-heritage/war-and-peace-stories/
+  - the second image is taken from a history website - https://shows.acast.com/dansnowshistoryhit/episodes/destroying-a-nazi-stronghold-the-st-nazaire-raid
+  - the third is taken from the ausrtialn goverment website and is of a declassifed docuemtn of the raid - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
 
 ### Content
 
