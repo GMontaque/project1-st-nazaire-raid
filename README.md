@@ -163,11 +163,15 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 #### media PAGE
 
-![Booking page made in wireframes](assets/images/St-Nazaire-mockup.png)
+![media page made in wireframes](assets/images/St-Nazaire-mockup.png)
+- this page included some more visual content as well as some offical videos and interviews
+- the page is to comtain some embed content from other site to give people a more broad expericne
+- the layout would be set to one or two videos coupled with some book recommendations
+- the book recommendation section would also provide a link so the user can go onto purchase the book if they so wish
 
 ## Testing
 
-- tested in different browsers, firefox, edge and google
+- i have tested the website in different broswers such as google, firefox and edge
 - used dev tools to test website
 - used lighthouse to test website
 
