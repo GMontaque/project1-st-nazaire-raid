@@ -228,8 +228,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
   - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
 
+## Credit and content
 
-## Credits
+#### icons
+
+- all icons used in the website were taken from Fontawesome [Font Awesome](https://fontawesome.com/)
 
 #### home page
 
@@ -237,14 +240,14 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
   - https://www.combinedops.com/St%20Nazaire.htm
 
 #### gallery page
- - the vc content came from the follow website
-  - https://vcgca.org/our-people/action-and-memorial-locations
+
+- the vc content came from the follow website
+- https://vcgca.org/our-people/action-and-memorial-locations
 
 #### media page
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+- written cotent of the review of the greatest raid book came from - https://www.amazon.co.uk/Greatest-Raid-Nazaire-Operation-Chariot/dp/0241992257#:~:text=Under%20orders%20to%20attack%20the,than%20in%20any%20similar%20operation.
+- written content fo the review of the book into the jaws of death came from - https://robertlyman.com/book/into-the-jaws-of-death/
 
 #### footer
 
@@ -253,12 +256,23 @@ You can break the credits section up into Content and Media, depending on what y
   - the second image is taken from a history website - https://shows.acast.com/dansnowshistoryhit/episodes/destroying-a-nazi-stronghold-the-st-nazaire-raid
   - the third is taken from the ausrtialn goverment website and is of a declassifed docuemtn of the raid - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
 
-### Content
+### Media and Images
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- background image - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
+- images used on home page
+  - https://discover.hubpages.com/education/The-Greatest-Raid-of-All-Operation-Chariot-St-Nazaire-27th-March-1942
+  - https://www.worldnavalships.com/forums/thread.php?threadid=1099
+- images used in gallery page
 
-### Media
+  - https://militaryhistorynow.com/2022/02/22/operation-chariot-inside-britains-daring-commando-raid-on-st-nazaire/
+  - https://warfarehistorynetwork.com/article/the-st-nazaire-raid/
+  - https://www.nationalww2museum.org/war/articles/bold-strategy-british-raid-st-nazaire
+  - https://www.nationalww2museum.org/war/articles/british-raid-st-nazaire-part-ii
+  - https://www.combinedops.com/St%20Nazaire.htm
+  - https://www.commandoveterans.org/Chariot
+  - https://www.businessinsider.com/daring-british-st-nazaire-raid-kept-tirpitz-out-of-war-2022-3?r=US&IR=T
 
-- photos used for the project
+- Images used in media page
+  - https://rupertcolley.com/2015/03/28/saint-nazaire-raid-summary/
+- Video was taken from North One youtube channel - https://www.youtube.com/watch?v=07Zd0Oy8JyQ
+- Podcast of Lt Col R.K. Montgomery was taken from - https://evergreenpodcasts.com/warriors-in-their-own-words/lt-col-r-k-montgomery-the-st-nazaire-raid
