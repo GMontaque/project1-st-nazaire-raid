@@ -208,7 +208,13 @@ If this section grows too long, you may want to split it off into a separate fil
 - when building the website have used an extension called pritter which has resulted in the warning that you can see on each screenshot
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - When testing my CSS as you can see from the below image tehre were no errors
+
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+- when testing the website on different devices i have used the pre-defined dimensions that come with the developer tool on google chrome
+- i have also reasearch a number of website which have described the most connon screen size for devices in 2023 for desktop and mobile - https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design
+
+![image showing btoh mobile and pc devices](assets/images/St-Nazaire-mockup.png)
 
 ## Deployment
 
@@ -219,7 +225,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://gmontaque.github.io/project1-st-nazaire-raid/index.html
 
 ### ISSUES/Bugs
 
@@ -230,26 +236,26 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credit and content
 
-#### icons
+#### Icons
 
 - all icons used in the website were taken from Fontawesome [Font Awesome](https://fontawesome.com/)
 
-#### home page
+#### Home Page
 
 - the content of the text on the home page came from the follow websites:
   - https://www.combinedops.com/St%20Nazaire.htm
 
-#### gallery page
+#### Gallery page
 
 - the vc content came from the follow website
 - https://vcgca.org/our-people/action-and-memorial-locations
 
-#### media page
+#### Media Page
 
 - written cotent of the review of the greatest raid book came from - https://www.amazon.co.uk/Greatest-Raid-Nazaire-Operation-Chariot/dp/0241992257#:~:text=Under%20orders%20to%20attack%20the,than%20in%20any%20similar%20operation.
 - written content fo the review of the book into the jaws of death came from - https://robertlyman.com/book/into-the-jaws-of-death/
 
-#### footer
+#### Footer
 
 - in the footer from left to right the information was gained as follows
   - first link is the logo for the St Naizare town webiste and the link takes you to the side - https://www.saint-nazaire-tourisme.uk/explore/discover-our-heritage/war-and-peace-stories/
