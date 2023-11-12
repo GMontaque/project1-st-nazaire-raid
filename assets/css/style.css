@@ -48,7 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 10rem;
-  background: grey;
+  background: darkslategray;
   top: 0;
   width: 100%;
   align-items: center;
@@ -91,7 +91,7 @@ main {
 footer {
   display: flex;
   justify-content: space-evenly;
-  background: grey;
+  background: darkslategray;
   margin-top: 3rem;
 }
 .footer-section {
