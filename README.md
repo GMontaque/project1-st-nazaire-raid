@@ -8,35 +8,35 @@
 
 ![picture of the mockup of the website](assets/images/mockup.PNG)
 
-I have created a website where a user can view infomration about the St Nazaire raid which is not very famous as some other battle such as D-day or the battle of berlin. But that i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
+I have created a website where a user can view infomration about the St Nazaire Raid which is a battle that took place during WW2 but is not so well known or famous as some other battles such as D-day or the battle of berlin. But i'd i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
 
-Through the website you will where the plan initally got it routes and the reason such a plan had to come together, and then it will be explained to you both the battle itelf and the stuggles and problems that was faced by the attacking force, before finally finishing by showing whwere a person can visit the war memorial for this battle.
+Through the website I aim to show a yuser how the plan initally got it routes and the reasons such a plan had to come together, and then it will be explained to them both the battle itelf and the stuggles and problems that was faced by the attacking force, before finally finishing by showing where a person can visit the war memorial for this battle.
 
-There are also links to furhter docuemnts and videos where you can find further uifnormation and even some first hand accounts of the men who took part in the battle.
+There are also links to further docuemnts and videos where a user can find further information and even some first hand accounts of the men who took part in the battle.
 
 ## Target audience
 
-
-**Why do we want to build the product?**
+**What was the idea behind building the product?**
 
 - To inform users about the raid and share the history
 - To show the men who took part and what they endured
-- breakdown why the raid happened and how it happened through different media
+- Breakdown why the raid happened and how it happened through different media sources
 
 **What are the needs of our users and how do we address them?**
 
 - Be able to find out information about the raid easily
 - Understanding the raid in more detail
 - User should feel they have a better understanding about the raid after going through the site
+- The user should find the information in multipul sorces to suit their needs
 
-**how the site meets the needs of user and buiness**
+**How does the site meets the needs of user and business**
 
-- A person with an interest in ww2 and famous battle can go through and abosirbe information
-- there are further links to even more information
-- images ahve been added so people can visual the battle as well as reading ti
-- Content is easy to read and digest but provide all the detail requuire
-- thourhg the images and text the site will attract more users for the buiness
-- the media content and links means there is something for all users, help the site and buiness tog et traffic
+- A person with an interest in ww2 and famous battle can go through and abosrbe information
+- There are further links to even more information from sources with more detail, allowing them to further their knowledge
+- Images have been added so people can visualise the battle as well as reading about the topic
+- Content is easy to read and digest but provides all the detail required
+- Through the use of the images and text the site will attract more users to the site and engange them
+- The media content and links means there is something for all users, which will help the site and buiness to get traffic
 - SEO has been used throughout the site, inceasing teh SEO ranking of the site
 
 ## Features
@@ -205,13 +205,15 @@ There are also links to furhter docuemnts and videos where you can find further 
   - media page
 
 - when building the website have used an extension called pritter which has resulted in the warning that you can see on each screenshot
+
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
   ![html validator results](assets/images/html-validator.PNG)
+
 - When testing my CSS as you can see from the below image tehre were no errors
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
-  
+
 ![CSS validator results](assets/images/css-validator.PNG)
 
 - when testing the website on different devices i have used the pre-defined dimensions that come with the developer tool on google chrome
