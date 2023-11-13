@@ -120,28 +120,36 @@ There are also links to further docuemnts and videos where a user can find furth
 
 #### HOME Page
 
-- The gallery will provide the user with supporting images to see what the meet ups look like.
-- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- Below you will find a direct link to the page, which contains the follow features:
+  - hero image
+  - battle timeline
 
-![homepage wireframe](assets/images/homepage-wireframe.PNG)
+[St Nazaire raid homepage](https://gmontaque.github.io/project1-st-nazaire-raid/)
+![battle information](assets/images/battle-information-timeline-mockup.PNG)
 
 #### GALLERY Page
 
-- The gallery will provide the user with supporting images to see what the meet ups look like.
-- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- Below you will find a direct link to the page, which contains the follow features:
+  - gallery images
+  - vc winners
 
-![homepage wireframe](assets/images/gallery-wireframe.PNG)
+[St Nazaire raid gallery page](https://gmontaque.github.io/project1-st-nazaire-raid/gallery.html)
+![gallery](assets/images/gallery-mockup.PNG)
 
 #### Media Page
 
-- The gallery will provide the user with supporting images to see what the meet ups look like.
-- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- Below you will find a direct link to the page, which contains the follow features:
+  - Youtube video explaining the battle
+  - podcast from the commander of the raid
+  - external book links
+  - form to sign up for film and book recommendatuions
 
-![homepage wireframe](assets/images/media-page-wireframe.PNG)
+[St Nazaire raid media page](https://gmontaque.github.io/project1-st-nazaire-raid/media-links.html)
+![embeded video](assets/images/youtube-podcast-mockup.PNG)
 
 ### Typography and color scheme
 
-- for the font i have used Playpen Sans [google font link](https://fonts.google.com/specimen/Playpen+Sans)
+- For the font i have used Playpen Sans [google font link](https://fonts.google.com/specimen/Playpen+Sans)
   - i have used this font as i was looking for a style that would appear to be hand wriotten
   - i have also used this font as the main background of the site contains an image from a declassifed doucemnt about the raid, i was looking for a font style that match this style of text
   - i also wanted the text to almost look as if it was from that time period
