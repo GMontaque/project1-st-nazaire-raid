@@ -25,7 +25,6 @@ h1 {
   width: 100%;
   font-size: 8rem;
   text-align: center;
-  margin-bottom: 3rem;
   padding: 3rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
@@ -171,7 +170,7 @@ footer {
   align-items: center;
   transition: transform 0.5s ease-in-out;
   text-align: center;
-  background-color: grey;
+  background-color: darkslategray;
 }
 
 .mobile-navbar-container .mobile-navlinks li {
@@ -179,6 +178,10 @@ footer {
   font-size: 1.5rem;
   font-weight: 500;
   margin: 5rem 0;
+}
+
+.mobile-navlinks li a {
+  color: white;
 }
 
 .mobile-navbar-container input[type="checkbox"]:checked ~ .mobile-navlinks {
@@ -689,11 +692,16 @@ fieldset input[type="checkbox"] {
   }
 }
 @media only screen and (max-width: 769px) {
+  /* navbar */
+  #navlinks li {
+    font-size: 2rem;
+  }
+
   /* index page */
   .hero-header-text {
     top: 0%;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .st-nazaire-main-content-header {
     font-size: 2rem;
