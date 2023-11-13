@@ -145,7 +145,7 @@ There are also links to furhter docuemnts and videos where you can find further 
   - i have used this font as i was looking for a style that would appear to be hand wriotten
   - i have also used this font as the main background of the site contains an image from a declassifed doucemnt about the raid, i was looking for a font style that match this style of text
   - i also wanted the text to almost look as if it was from that time period
-- for the colours i have kept this to simple colours of grey black and white
+- for the colours i have kept this to simple colours of dark slate grey, black and white
   - these colours ahv been choosen due to the time period the website cover 1939-1945
   - during this period most images were black and white
   - also i wanted the colour scheme to follow the background which is taken from a declassifed document
@@ -184,24 +184,17 @@ There are also links to furhter docuemnts and videos where you can find further 
 - on each browser i have gone into the dev tools and tested the websiet at different screen sizes
 - I have used lighthouse to test the website as per the image below:
 
-![iamge showing lighthouse result](assets/images/St-Nazaire-mockup.png)
+![iamge showing page speed report pc result](assets/images/pagespeed-report-pc.PNG)
+![iamge showing page speed report mobile  result](assets/images/pagespeed-report-mobile.PNG)
 
 - validation from homepage
-  ![iamge showing homepage result](assets/images/St-Nazaire-mockup.png)
+  ![iamge showing homepage result](assets/images/lighthouse-indexpage.PNG)
 
 - validation for gallery page
-  ![iamge showing gallery result](assets/images/St-Nazaire-mockup.png)
+  ![iamge showing gallery result](assets/images/lighthouse-gallerypage.PNG)
 
 - validation for media page
-  ![iamge showing media result](assets/images/St-Nazaire-mockup.png)
-
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+  ![iamge showing media result](assets/images/lighthouse-mediapage.PNG)
 
 ### Validator Testing
 
@@ -222,6 +215,22 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ![Media Page wireframe](assets/images/most-common-screen-resolutions-worldwide-content.jpg)
 
+**external links**
+
+- i have tested each external link to make sure that it goes to the correct website
+- I have also tested the links to make sure that they all open the website on a new broswer tab
+
+**mobile navbar header**
+
+- the navbar on mobile has been tested to make sure that it appears when the burger is clicked
+- the navbar has been test to make sure that the large screen navbar disappers and only the mobile version is visible
+
+**Colour Scheme**
+
+- the colour scheme of dark slate gray, black and white was also used as when checking on the colour contrast ratio they passed all tests
+
+![colour contrast image](assets/images/colour-contrast.PNG)
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -233,7 +242,7 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://gmontaque.github.io/project1-st-nazaire-raid/index.html
 
-### ISSUES/Bugs
+### Issues and Bugs
 
 - inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
   - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
