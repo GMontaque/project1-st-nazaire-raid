@@ -45,33 +45,33 @@ There are also links to further docuemnts and videos where a user can find furth
 
 **Navigation Bar**
 
-- this appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. in the navigation bar there are links to the home page, gallery and media page.
-- using the naviatation bar the user can navigate all 3 pages, the logo is also a navigation link, when clicked on it send the user back to the home page.
+- this appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. Iin the navigation bar there are links to the home page, gallery and media page.
+- Using the naviatation bar the user can navigate all 3 pages, the logo is also a navigation link, when clicked on it send the user back to the home page.
 
 ![Nav Bar](assets/images/navbar-mockup.PNG)
 
 **The landing page image**
 
-- this is the first page the user sees when clicking on the website
-- the user is greeting by a navigation bar, a hearo image with a text overlay and the title of the webiste
-- the text of the hero image is there to draw the users eye and will put to them a question, the idea being to reafirm what site they ahve clicked on and to also peak there interet to look further
-- the hero section contains 3 images that roate
+- This is the first page the user sees when clicking on the website
+- The user is greeted by a navigation bar, a hero image with a text overlay and the title of the webiste
+- The text of the hero image is there to draw the users eye and will put to them a question, the idea being to reafirm what site they have clicked on and to also peak there interet to look further
+- The hero section contains 3 images that rotate
 
 ![landing page](assets/images/landing-page.PNG)
 
 **Home Page**
 
-- the homepage contains the main written content of the website
-- here the battle is broken down into background, plan, battle and aftermath, each section explains the battle at that stage
-- images have been included to help the user visual what is being explained
-- finally an image of the memorial has been included so user can clearly read what has been written to provide an emotive response to what they have read
+- The homepage contains the main written content of the website
+- Here the battle is broken down into background, plan, battle and aftermath, each section explains the battle at that stage
+- Images have been included to help the user visual what is being explained
+- Finally an image of the memorial has been included so user can clearly read what has been written to provide an emotive response to what they have read
 
 ![home page](assets/images/homepage-mockup.PNG)
 
 **Battle information timeline**
 
-- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-- This section will be updated as these times change to keep the user up to date.
+- This section provides a timeline of events as they unfloded and guides the user through the story of the battle.
+- Real world images of the battle plan have been included so they can be viewed as the user reads on the topic.
 
 ![battle information](assets/images/battle-information-timeline-mockup.PNG)
 
@@ -85,34 +85,34 @@ There are also links to further docuemnts and videos where a user can find furth
 **Gallery**
 
 - The gallery provides images from the battle both before and after and will allow the user to better understand what happened
-- will provide the user with supporting images to see what the meet ups look like.
-- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- It also allows the user to see different aspects of the battle from both the german and allied side
+- There are also included some the sodlers themselves who took part
 
 ![gallery](assets/images/gallery-mockup.PNG)
 
 **VC winners**
 
 - This section aims to highlight 5 inviduals who exceled themsevles during the battle and one the highest award teh victoria cross.
-- in this section citation have been included which explain the reason why they were awared the victoria cross
-  -there is also a link to a wbsite which contains all VC winners and provide some further infomration about each person who one
-- this section is important as it gives an insite into the real people who were there
+- In this section citation have been included which explain the reason why they were awared the victoria cross
+  - There is also a link to a wbsite which contains all VC winners and provide some further infomration about each person who one
+- This section is important as it gives an insite into the real people who were there
 
 ![vc winers](assets/images/vc-winners-mockup.PNG)
 
 **embeded video and podcast**
 
-- on this page there is a lot of mutli media content
-- first is a video that was created by jeremy clarkson which goes over the battle and has some first hand account from people who were there, it also shows content not included in other asspects of the site
-- there is also a vocei recording by the commander of the battle where he talks through the battle
-- these sections ahve been included to allows uers who absob infomration thorugh video to all get a full ubnderstanding of the battle
+- Multi Media content has been included to add variety to the information sources
+- A video has been included which shows jeremy clarkson talking over the battle and has some first hand account from people who were there, it also shows content not included in other asspects of the site
+- There is also a vocice recording by the commander of the battle where he talks through the battle
+- These sections ahve been included to allows uers who absorb infomration thorugh video to all get a full understanding of the battle
 
 ![embeded video](assets/images/youtube-podcast-mockup.PNG)
 
 **Books on the raid**
 
 - Here the user can see books which realte to the raid and also books that are written from histroians and first hand accounts if they prefer to read
-- the section also provides links to where they can be more for further information
-- this section is useful as it gives teh suer more ways to interact and absord the information provided
+- The section also provides links to w1here they can be more for further information
+- This section is useful as it gives the user the ability to read over the topic in a more relax setting compared to viewing it on a screen
 
 ![books section](assets/images/book-section-mockup.PNG)
 
