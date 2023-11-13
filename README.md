@@ -16,7 +16,6 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 ## Target audience
 
-<!-- - section should confirm purpose of website, the value that it provides to its users, and the deployment procedure. -->
 
 **Why do we want to build the product?**
 
@@ -36,10 +35,11 @@ There are also links to furhter docuemnts and videos where you can find further 
 - there are further links to even more information
 - images ahve been added so people can visual the battle as well as reading ti
 - Content is easy to read and digest but provide all the detail requuire
+- thourhg the images and text the site will attract more users for the buiness
+- the media content and links means there is something for all users, help the site and buiness tog et traffic
+- SEO has been used throughout the site, inceasing teh SEO ranking of the site
 
 ## Features
-
-<!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
 
 ### Page Features
 
@@ -114,7 +114,7 @@ There are also links to furhter docuemnts and videos where you can find further 
 - the section also provides links to where they can be more for further information
 - this section is useful as it gives teh suer more ways to interact and absord the information provided
 
-![St Nazaire raid books](assets/images/book-section-mockup.PNG)
+![books section](assets/images/book-section-mockup.PNG)
 
 ## Page Breakdown
 
@@ -206,9 +206,13 @@ There are also links to furhter docuemnts and videos where you can find further 
 
 - when building the website have used an extension called pritter which has resulted in the warning that you can see on each screenshot
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+  ![html validator results](assets/images/html-validator.PNG)
 - When testing my CSS as you can see from the below image tehre were no errors
 
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+  
+![CSS validator results](assets/images/css-validator.PNG)
 
 - when testing the website on different devices i have used the pre-defined dimensions that come with the developer tool on google chrome
 - i have also reasearch a number of website which have described the most connon screen size for devices in 2023 for desktop and mobile - https://www.designrush.com/agency/web-development-companies/trends/website-dimensions
