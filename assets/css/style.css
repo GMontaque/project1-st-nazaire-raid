@@ -40,6 +40,12 @@ h1 {
 a {
   text-decoration: none;
 }
+
+.hov-effect:hover {
+  text-decoration: underline;
+  text-decoration-color: darkslategray;
+  color: darkslategray;
+}
 /******* navbar  **********/
 
 header {
