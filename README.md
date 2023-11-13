@@ -122,7 +122,7 @@ There are also links to further docuemnts and videos where a user can find furth
 - the purpose of which to better engage user and give them a reason to return to the site
 - the form will sign up the user to a mailing list which will perioditcally send them out recommendation of either a book or film relating to the raid
 
-![form section](assets/images/book-section-mockup.PNG)
+![form section](assets/images/sign-up-form-mockup.PNG)
 
 ## Page Breakdown
 
