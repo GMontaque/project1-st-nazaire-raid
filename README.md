@@ -192,8 +192,8 @@ There are also links to further docuemnts and videos where a user can find furth
 
 ## Testing
 
-- i have tested the website in different broswers such as google, firefox and edge
-- on each browser i have gone into the dev tools and tested the websiet at different screen sizes
+- I have tested the website in different broswers such as google, firefox and edge
+- On each browser i have gone into the dev tools and tested the website at different screen sizes
 - I have used lighthouse to test the website as per the image below:
 
 ![iamge showing page speed report pc result](assets/images/pagespeed-report-pc.PNG)
@@ -249,6 +249,19 @@ There are also links to further docuemnts and videos where a user can find furth
 
 ![colour contrast image](assets/images/colour-contrast.PNG)
 
+### Issues and Bugs
+
+- inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
+  - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
+- another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
+  - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
+
+### Performance
+
+- when testing the website on Pagespeed i found there was a reduction in performaance, to resolve this i updated all images to webp
+- the reason for this being that there is a signification reduction in the size of the image without a loss of quality which results in a faster website loading time
+- Other benefits include reduced bandwidth
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -259,13 +272,6 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://gmontaque.github.io/project1-st-nazaire-raid/index.html
-
-### Issues and Bugs
-
-- inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
-  - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
-- another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
-  - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
 
 ## Credit and content
 
