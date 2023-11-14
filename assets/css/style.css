@@ -27,13 +27,13 @@ h1 {
   text-align: center;
   padding: 3rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 3rem;
 }
 
 .subhead {
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem 2rem;
 }
 
@@ -341,7 +341,7 @@ footer {
   margin: 3rem 10rem;
   padding: 5rem 7rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .st-nazaire-main-content img {
@@ -452,7 +452,7 @@ blockquote {
   max-width: 44vw;
   margin: 4rem 2rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .vc-winners-card-title {
@@ -564,7 +564,7 @@ blockquote i {
 .style-test {
   border-radius: 3rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   font-size: 1.5rem;
   padding: 3rem;
 }
@@ -575,7 +575,7 @@ form {
   padding: 3rem;
   border-radius: 5rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
 }
 form h2 {
