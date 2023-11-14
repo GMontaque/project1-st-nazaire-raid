@@ -556,7 +556,6 @@ blockquote i {
 }
 
 .st-nazaire-books-fig-review {
-  /* padding-top: 1rem; */
   margin: 2rem;
   text-align: justify;
   max-width: 75rem;
@@ -645,10 +644,7 @@ fieldset input[type="checkbox"] {
 
 @media only screen and (max-width: 1026px) {
   /* index page */
-  /* .hero-header-text {
-    top: 15%;
-    width: 35%;
-  } */
+
   .slide-show-container {
     width: 100%;
   }
