@@ -1,9 +1,5 @@
 # St Nazaire Raid - Operation Chariot
 
-## Table of Content
-
-- contain list of different sections of readme
-
 ## About the project
 
 ![picture of the mockup of the website](assets/images/mockup.PNG)
@@ -281,6 +277,10 @@ The live link can be found here - https://gmontaque.github.io/project1-st-nazair
 
 - the content of the text on the home page came from the follow websites:
   - https://www.combinedops.com/St%20Nazaire.htm
+- For the hero slider i took insperation from the follow code:
+  - https://codepen.io/LalexG/pen/VxVzeE
+- For the mobile Navigation Bar as a frame work i used code from the follow site:
+  - https://codepen.io/alvarotrigo/pen/wvrzPWL
 
 #### Gallery page
 
