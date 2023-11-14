@@ -255,7 +255,9 @@ There are also links to further docuemnts and videos where a user can find furth
   - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
 - another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
   - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
-
+- when validation my code i found there was an issue with the mobile navigation bar, the error related to the value given to the "for" atribute and the value give the the "name" attribute did not match. When correcting this initally it broke the styling that was applied to the checkbox.
+  - to solve this issue i had to go through the mobile navigation code as well as teh devloper tools to understand what classes were being added and what classesd were not being added. from this i could understnad what the issue was and how to fix it which was to update the class name.
+  
 ### Performance
 
 - when testing the website on Pagespeed i found there was a reduction in performaance, to resolve this i updated all images to webp
