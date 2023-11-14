@@ -145,13 +145,13 @@ footer {
   list-style: none;
 }
 
-.mobile-navbar-container #header-checkbox {
+.mobile-navbar-container #nav-mobile-checkbox {
   position: absolute;
   display: block;
   height: 32px;
   width: 32px;
-  top: 25px;
-  right: 25px;
+  top: 33px;
+  right: 22px;
   opacity: 0;
   z-index: 5;
 }
