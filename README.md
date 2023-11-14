@@ -256,7 +256,7 @@ There are also links to further docuemnts and videos where a user can find furth
 ### Issues and Bugs
 
 - inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
-  - the issue was that i was missing a max-width on the body parent element, once this was added the issue was fixed
+  - the issue was that i was missing a max-width on the body parent element, to solve this issue i had to add a max-wdith to the elements and this fixed the issue
 - another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
   - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
 - when validation my code i found there was an issue with the mobile navigation bar, the error related to the value given to the "for" atribute and the value give the the "name" attribute did not match. When correcting this initally it broke the styling that was applied to the checkbox.
