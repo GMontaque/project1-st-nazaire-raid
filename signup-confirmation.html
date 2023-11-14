@@ -62,7 +62,7 @@
       <nav class="lg-screen-navbar">
         <ul id="navlinks">
           <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
           <li><a href="media-links.html">Mutli Media</a></li>
         </ul>
       </nav>
@@ -70,17 +70,26 @@
 
     <!-- main -->
     <main style="max-width: 100%">
-      <h1 class="gallery-header">Thank you for signing up</h1>
+      <h1 class="signup-confirm-header">Thank you for signing up</h1>
 
-      <section class="">
-        <h2>
-          <a href="media-links.html">Click here to return to the media page</a>
+      <section
+        class=""
+        style="
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          height: 60rem;
+        "
+      >
+        <h2 class="signup-confirm-text">
+          <a style="color: white" href="media-links.html"
+            >Return to the media page</a
+          >
         </h2>
         <img
           src="assets/images/royal-navy-mtb74.webp"
           alt="motorboat used during the battle"
-          class=""
-          style="width: 100%"
+          class="signup-confirm-img"
         />
       </section>
     </main>

@@ -640,6 +640,22 @@ fieldset input[type="checkbox"] {
   box-shadow: 0 0 0 2px white, 0 0 0 3px darkslategray;
 }
 
+/******************* sign up confirmation page ****************/
+
+.signup-confirm-text {
+  background: darkslategray;
+  font-weight: bold;
+  width: 576px;
+  font-size: 3rem;
+}
+
+.signup-confirm-img {
+  width: 576px;
+}
+
+.signup-confirm-header {
+  font-size: 6rem;
+}
 /************** media query *******************/
 
 @media only screen and (max-width: 1026px) {
@@ -758,6 +774,22 @@ fieldset input[type="checkbox"] {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  /* signup confirm section */
+
+  .signup-confirm-header {
+    font-size: 4rem;
+  }
+  .signup-confirm-text {
+    width: 91%;
+    font-size: 2rem;
+  }
+
+  .signup-confirm-img {
+    width: 91%;
   }
 }
 
