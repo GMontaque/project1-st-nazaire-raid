@@ -193,7 +193,11 @@ There are also links to further docuemnts and videos where a user can find furth
 ## Testing
 
 - I have tested the website in different broswers such as google, firefox and edge
-- On each browser i have gone into the dev tools and tested the website at different screen sizes
+- On each browser i have gone into the dev tools and tested the website at different screen sizes, from mobile to full size. Examples below from Firefox and Edge:
+
+![image test in edge](assets/images/edge-website-test.PNG)
+![image test in firefox](assets/images/firefox-website-test.PNG)
+
 - I have used lighthouse to test the website as per the image below:
 
 ![iamge showing page speed report pc result](assets/images/pagespeed-report-pc.PNG)
@@ -257,12 +261,36 @@ There are also links to further docuemnts and videos where a user can find furth
   - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
 - when validation my code i found there was an issue with the mobile navigation bar, the error related to the value given to the "for" atribute and the value give the the "name" attribute did not match. When correcting this initally it broke the styling that was applied to the checkbox.
   - to solve this issue i had to go through the mobile navigation code as well as teh devloper tools to understand what classes were being added and what classesd were not being added. from this i could understnad what the issue was and how to fix it which was to update the class name.
-  
+
 ### Performance
 
 - when testing the website on Pagespeed i found there was a reduction in performaance, to resolve this i updated all images to webp
 - the reason for this being that there is a signification reduction in the size of the image without a loss of quality which results in a faster website loading time
 - Other benefits include reduced bandwidth
+
+### SEO
+
+- To improve the SEO side of the webiste i have included the follow code below.
+  - I have added a meta section which included certain key words, meaning that when a user searchs these words there is a higher chance that my site will appear in the search results
+  - there is also a title included which will be picked up by google when a search is completed
+
+```
+<!-- title and tab icon -->
+
+    <link
+      rel="icon"
+      type="images/x-icon"
+      href="assets/images/commando-insignia.jpg" />
+
+    <title>St Nazaire Raid</title>
+
+    <!-- Meta tags for search engines -->
+
+    <meta
+      name="description"
+      content="WW2, France, British, Germans, st nazaire, royal navy"  />
+    <meta name="keywords" content="WW2, raid, British, Commando, Raid" />
+```
 
 ## Deployment
 
