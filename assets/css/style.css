@@ -145,7 +145,7 @@ footer {
   list-style: none;
 }
 
-.mobile-navbar-container #nav-mobile-checkbox {
+.mobile-navbar-container #header-checkbox {
   position: absolute;
   display: block;
   height: 32px;
