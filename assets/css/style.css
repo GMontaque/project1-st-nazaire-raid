@@ -683,6 +683,17 @@ textarea {
 .signup-confirm-header {
   font-size: 6rem;
 }
+
+.signup-confirm-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60rem;
+}
+
+.signup-confirm-text a {
+  color: white;
+}
 /************** media query *******************/
 
 @media only screen and (max-width: 1026px) {
