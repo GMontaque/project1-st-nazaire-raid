@@ -437,12 +437,8 @@ footer {
   width: 100%;
 }
 
-.hide {
-  display: none;
-}
-
-.myDIV:hover + .hide {
-  display: block;
+.gallery-img-size {
+  width: 100%;
 }
 
 blockquote {
