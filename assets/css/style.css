@@ -524,6 +524,8 @@ blockquote i {
 
 .podcast-header a {
   font-size: 2rem;
+  color: white;
+  text-decoration: none;
 }
 
 .montgomery {
@@ -574,12 +576,19 @@ blockquote i {
   text-align: justify;
   max-width: 75rem;
 }
-.style-test {
+.st-nazaire-books-fig-review-inner {
   border-radius: 3rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   font-size: 1.5rem;
   padding: 3rem;
+}
+
+.st-nazaire-books-fig-review-inner a {
+  font-size: 2rem;
+  float: right;
+  color: white;
+  text-decoration: underline;
 }
 
 form {
@@ -652,6 +661,10 @@ fieldset input[type="checkbox"] {
 }
 .button:hover {
   box-shadow: 0 0 0 2px white, 0 0 0 3px darkslategray;
+}
+
+textarea {
+  width: 100%;
 }
 
 /******************* sign up confirmation page ****************/
