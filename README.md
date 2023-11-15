@@ -10,6 +10,8 @@ Through the website, I aim to show a user how the plan initially got its routes 
 
 There are also links to further documents and videos where a user can find further information and even some first-hand accounts of the men who took part in the battle.
 
+[Live Website Link](https://gmontaque.github.io/project1-st-nazaire-raid/)
+
 ## Target Audience
 
 **What was the idea behind building the product?**
