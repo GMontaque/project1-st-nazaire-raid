@@ -45,6 +45,7 @@ There are also links to further docuemnts and videos where a user can find furth
 - Using the naviatation bar the user can navigate all 3 pages, the logo is also a navigation link, when clicked on it send the user back to the home page.
 
 ![Nav Bar](assets/images/navbar-mockup.PNG)
+![Mobile Nav Bar](assets/images/mobile-navbar-mockup.PNG)
 
 **The landing page image**
 
