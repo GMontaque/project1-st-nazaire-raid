@@ -42,9 +42,9 @@ a {
 }
 
 .hov-effect:hover {
-  text-decoration: underline;
-  text-decoration-color: darkslategray;
-  color: darkslategray;
+  text-decoration-color: blueviolet;
+  color: white;
+  background-color: blueviolet;
 }
 
 .display-none {
@@ -137,7 +137,7 @@ footer {
 }
 
 .footer-external-imgs:hover ~ .footer-external-text {
-  color: blue;
+  color: blueviolet;
 }
 
 /* mobile nav  */
@@ -659,8 +659,11 @@ fieldset input[type="checkbox"] {
   text-decoration: none;
   font-size: 14px;
 }
-.button:hover {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px darkslategray;
+.button:hover,
+.buy-hover:hover {
+  text-decoration-color: blueviolet;
+  color: white;
+  background-color: blueviolet;
 }
 
 textarea {
