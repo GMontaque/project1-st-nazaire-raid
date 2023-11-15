@@ -46,15 +46,14 @@ There are also links to further documents and videos where a user can find furth
 - This appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. In the navigation bar, there are links to the home page, gallery and media page.
 - Using the navigation bar the user can navigate all 3 pages, the logo is also a navigation link, and when clicked on it sends the user back to the home page.
 
-
 ![Nav Bar](assets/images/navbar-mockup.PNG)
 ![Mobile Nav Bar](assets/images/mobile-navbar-mockup.PNG)
 
 **Landing Page Image**
 
 - This is the first page the user sees when clicking on the website
-- The user is greeted by a navigation bar, a hero image with a text overlay and the title of the webiste
-- The text of the hero image is there to draw the users eye and will put to them a question, the idea being to reafirm what site they have clicked on and to also peak there interet to look further
+- The user is greeted by a navigation bar, a hero image with a text overlay and the title of the website
+- The text of the hero image is there to draw the user's eye and will put to them a question, the idea being to reaffirm what site they have clicked on and to also pique their interest to look further
 - The hero section contains 3 images that rotate
 
 ![landing page](assets/images/landing-page.PNG)
@@ -64,24 +63,24 @@ There are also links to further documents and videos where a user can find furth
 
 - The homepage contains the main written content of the website
 - Here the battle is broken down into background, plan, battle and aftermath, each section explains the battle at that stage
-- Images have been included to help the user visual what is being explained
-- Finally an image of the memorial has been included so user can clearly read what has been written to provide an emotive response to what they have read
+- Images have been included to help the user visualise what is being explained
+- Finally, an image of the memorial has been included so users can read what has been written to provide an emotive response to what they have read
 
 ![home page](assets/images/homepage-mockup.PNG)
 ![Mobile home page](assets/images/mobile-mockup-homepage.PNG)
 
-**Battle information timeline**
+**Battle Information Timeline**
 
 - This section provides a timeline of events as they unfloded and guides the user through the story of the battle.
-- Real world images of the battle plan have been included so they can be viewed as the user reads on the topic.
+- Real-world images of the battle plan have been included so they can be viewed as the user reads on the topic.
 
 ![battle information](assets/images/battle-information-timeline-mockup.PNG)
 ![Mobile battle information](assets/images/mobile-mockup-battleinfo.PNG)
 
 **Footer**
 
-- The footer section includes links to the other sites where the user can find out information about the battle
-- The footer is valuable as it allows people to find out further infomration and keep there interest for longer on the topic and site
+- The footer section includes links to the other sites where the user can find information about the battle
+- The footer is valuable as it allows people to find out further information and keep their interest for longer on the topic and site
 
 ![footer](assets/images/footer-mockup.PNG)
 ![vc winers](assets/images/mobile-mockup-footer.PNG)
@@ -89,59 +88,61 @@ There are also links to further documents and videos where a user can find furth
 **Gallery**
 
 - The gallery provides images from the battle both before and after and will allow the user to better understand what happened
-- It also allows the user to see different aspects of the battle from both the german and allied side
-- There are also included some the sodlers themselves who took part
+- It also allows the user to see different aspects of the battle from both the German and Allied side
+- There are also included some of the soldiers themselves who took part
 
 ![gallery](assets/images/gallery-mockup.PNG)
 ![Mobile gallery](assets/images/mobile-mockup-gallery.PNG)
 
-**VC winners**
+**Victoira Cross Winners**
 
-- This section aims to highlight 5 inviduals who exceled themsevles during the battle and one the highest award teh victoria cross.
-- In this section citation have been included which explain the reason why they were awared the victoria cross
-  - There is also a link to a wbsite which contains all VC winners and provide some further infomration about each person who one
-- This section is important as it gives an insite into the real people who were there
+- This section aims to highlight 5 inviduals who exceled themsevles during the battle and one of the highest awards the Victoria Cross.
+- In this section, citations have been included which explain the reason why they were awarded the Victoria Cross
+  - There is also a link to a website which contains all VC winners and provides some further information about each person
+- This section is important as it gives an insight into the real people who were there
 
 ![vc winers](assets/images/vc-winners-mockup.PNG)
-![vc winers](assets/images/mobile-mockup-vcwinners.PNG)
+![vc winers Mobile](assets/images/mobile-mockup-vcwinners.PNG)
 
-**embeded video and podcast**
+**Embeded Video and Podcast**
 
-- Multi Media content has been included to add variety to the information sources
-- A video has been included which shows jeremy clarkson talking over the battle and has some first hand account from people who were there, it also shows content not included in other asspects of the site
-- There is also a vocice recording by the commander of the battle where he talks through the battle
-- These sections ahve been included to allows uers who absorb infomration thorugh video to all get a full understanding of the battle
+- Multi Media content has been included to add variety to the information sources on the website
+- A video has been included which shows Jeremy Clarkson talking over the battle and has some first-hand accounts from people who were there, it also shows content not included in other aspects of the site
+- There is also a voice recording by the commander of the battle where he talks through the battle
+- These sections have been included to allow users who absorb information through video to get a full understanding of the battle
 
 ![embeded video](assets/images/youtube-podcast-mockup.PNG)
 ![embeded video mobile](assets/images/mobile-mockup-youtube.PNG)
 
-**Books on the raid**
+**Books on the Raid**
 
-- Here the user can see books which realte to the raid and also books that are written from histroians and first hand accounts if they prefer to read
-- The section also provides links to w1here they can be more for further information
-- This section is useful as it gives the user the ability to read over the topic in a more relax setting compared to viewing it on a screen
+- Here the user can see books which realte to the raid and also books that are written by historians and first-hand accounts if they prefer
+- The section also provides links to where they can go for further information
+- This section is useful as it gives the user the ability to read over the topic in a more relaxed setting compared to viewing it on a screen
+
 
 ![books section](assets/images/book-section-mockup.PNG)
-![books section](assets/images/mobile-mockup-book.PNG)
+![books section Mobile](assets/images/mobile-mockup-book.PNG)
 
-**sign up form**
+**Sign Up Form**
 
-- here i have inclueded a sign up form
-- the purpose of which to better engage user and give them a reason to return to the site
-- the form will sign up the user to a mailing list which will perioditcally send them out recommendation of either a book or film relating to the raid
+- Here i have included a sign up form
+- The purpose of which is to better engage users and give them a reason to return to the site
+- The form will sign up the user to a mailing list which will periodically send them out recommendations of either a book or film relating to the raid
+
 
 ![form section](assets/images/sign-up-form-mockup.PNG)
-![form section](assets/images/mobile-mockup-form.PNG)
+![form section Mobile](assets/images/mobile-mockup-form.PNG)
 
 ## Page Breakdown
 
 #### HOME Page
 
 - Below you will find a direct link to the page, which contains the follow features:
-  - hero image
-  - battle timeline
+  - Hero Image
+  - Battle Timeline
 
-[St Nazaire raid homepage](https://gmontaque.github.io/project1-st-nazaire-raid/)
+[St Nazaire Raid Homepage](https://gmontaque.github.io/project1-st-nazaire-raid/)
 ![battle information](assets/images/battle-information-timeline-mockup.PNG)
 
 #### GALLERY Page
