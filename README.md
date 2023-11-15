@@ -200,6 +200,12 @@ There are also links to further docuemnts and videos where a user can find furth
 
 ![Media Page wireframe](assets/images/media-page-wireframe.PNG)
 
+### Mobile Wireframe
+
+- Here i have created the wireframe for how the website should look on mobile
+
+![Mobile wireframe](assets/images/mobile-wireframe.PNG)
+
 ## Testing
 
 - I have tested the website in different broswers such as google, firefox and edge
