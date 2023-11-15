@@ -163,6 +163,13 @@ There are also links to further documents and videos where a user can find furth
 [St Nazaire raid media page](https://gmontaque.github.io/project1-st-nazaire-raid/media-links.html)
 ![embeded video](assets/images/youtube-podcast-mockup.PNG)
 
+#### Sign up Confirmation Page
+
+- Here I have included a page that will appear to confirm to the user they have completed the form correctly
+
+![Signup Confirmation](assets/images/signup-confirm.PNG)
+![Signup Confirmation Mobile](assets/images/signup-confirm-mobile.PNG)
+
 ### Typography and Colour Scheme
 
 - For the font i have used Playpen Sans [google font link](https://fonts.google.com/specimen/Playpen+Sans)
