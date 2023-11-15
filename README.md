@@ -120,7 +120,6 @@ There are also links to further documents and videos where a user can find furth
 - The section also provides links to where they can go for further information
 - This section is useful as it gives the user the ability to read over the topic in a more relaxed setting compared to viewing it on a screen
 
-
 ![books section](assets/images/book-section-mockup.PNG)
 ![books section Mobile](assets/images/mobile-mockup-book.PNG)
 
@@ -129,7 +128,6 @@ There are also links to further documents and videos where a user can find furth
 - Here i have included a sign up form
 - The purpose of which is to better engage users and give them a reason to return to the site
 - The form will sign up the user to a mailing list which will periodically send them out recommendations of either a book or film relating to the raid
-
 
 ![form section](assets/images/sign-up-form-mockup.PNG)
 ![form section Mobile](assets/images/mobile-mockup-form.PNG)
@@ -148,59 +146,59 @@ There are also links to further documents and videos where a user can find furth
 #### GALLERY Page
 
 - Below you will find a direct link to the page, which contains the follow features:
-  - gallery images
-  - vc winners
+  - Gallery Images
+  - VC Winners
 
 [St Nazaire raid gallery page](https://gmontaque.github.io/project1-st-nazaire-raid/gallery.html)
-![gallery](assets/images/gallery-mockup.PNG)
+![gallery snapshot](assets/images/gallery-mockup.PNG)
 
 #### Media Page
 
 - Below you will find a direct link to the page, which contains the follow features:
   - Youtube video explaining the battle
-  - podcast from the commander of the raid
-  - external book links
-  - form to sign up for film and book recommendatuions
+  - Podcast from the commander of the raid
+  - External book links
+  - Form to sign up for film and book recommendatuions
 
 [St Nazaire raid media page](https://gmontaque.github.io/project1-st-nazaire-raid/media-links.html)
 ![embeded video](assets/images/youtube-podcast-mockup.PNG)
 
-### Typography and color scheme
+### Typography and Colour Scheme
 
 - For the font i have used Playpen Sans [google font link](https://fonts.google.com/specimen/Playpen+Sans)
-  - i have used this font as i was looking for a style that would appear to be hand wriotten
-  - i have also used this font as the main background of the site contains an image from a declassifed doucemnt about the raid, i was looking for a font style that match this style of text
-  - i also wanted the text to almost look as if it was from that time period
-- for the colours i have kept this to simple colours of dark slate grey, black and white
-  - these colours ahv been choosen due to the time period the website cover 1939-1945
-  - during this period most images were black and white
-  - also i wanted the colour scheme to follow the background which is taken from a declassifed document
+  - I have used this font as I was looking for a style that would appear to be handwritten
+  - I have also used this font as the main background of the site contains an image from a declassified document about the raid, i was looking for a font style that matches this style of text
+  - I also wanted the text to look as if it was from that time period
+- For the colours I have kept this to simple colours of dark slate grey, black and white
+  - These colours have been chosen due to the time period the website covers 1939-1945
+  - During this time period most images were black and white
+  - I wanted the colour scheme to follow the background which is taken from a declassified document
 
 ### WIREFRAMES
 
 #### HOME PAGE
 
-- the idea of the the homepage was to create something that had a large clear image at the top and within the few seconds the user should clearly be able to tell what the website is about
-- the homepage was also to contain the content of the battle and break it down into a number of sections either 4 or 5
-- each section was to have both image and text to balance out the page
+- The idea of the the homepage was to create something that had a large clear image at the top and within a few seconds the user should be able to tell what the website is about
+- The homepage was also to contain the content of the battle and break it down into several sections either 4 or 5
+- Each section was to have both images and text to balance out the page
 
 ![homepage wireframe](assets/images/homepage-wireframe.PNG)
 
 #### GALLERY PAGE
 
-- this page was to be made up of 2 parts a gallery section and vc winners section
-- the gallery section is to include all real images either from before or after the battle and aswell as images related to the battle
-- the images would be responsive in desgin
-- below or about that there would be a vc winners section, this would describe the person and provide comments about them
+- This page was to be made up of 2 parts a gallery section and vc winners section
+- The gallery section is to include real images either from before or after the battle as well as images related to the battle
+- The images would be responsive in design
+- Below or above that there would be a VC winners section, this would describe the VC winners and provide comments about them
 
 ![Gallery wireframe](assets/images/gallery-wireframe.PNG)
 
-#### media PAGE
+#### Media PAGE
 
-- this page included some more visual content as well as some offical videos and interviews
-- the page is to comtain some embed content from other site to give people a more broad expericne
-- the layout would be set to one or two videos coupled with some book recommendations
-- the book recommendation section would also provide a link so the user can go onto purchase the book if they so wish
+- This page includes some more visual content as well as some offical videos and interviews
+- The page is to contain some embedded content from other sites to give people a more broad experience
+- The layout would be set to one or two videos coupled with some book recommendations
+- The book recommendation section would also provide a link so the user can go on purchase the book if they so wish
 
 ![Media Page wireframe](assets/images/media-page-wireframe.PNG)
 
@@ -212,8 +210,8 @@ There are also links to further documents and videos where a user can find furth
 
 ## Testing
 
-- I have tested the website in different broswers such as google, firefox and edge
-- On each browser i have gone into the dev tools and tested the website at different screen sizes, from mobile to full size. Examples below from Firefox and Edge:
+- I have tested the website in different broswers such as google, firefox and Edge
+- On each browser, I have gone into the dev tools and tested the website at different screen sizes, from mobile to full size. Examples below from Firefox and Edge:
 
 ![image test in edge](assets/images/edge-website-test.PNG)
 ![image test in firefox](assets/images/firefox-website-test.PNG)
@@ -223,76 +221,76 @@ There are also links to further documents and videos where a user can find furth
 ![iamge showing page speed report pc result](assets/images/pagespeed-report-pc.PNG)
 ![iamge showing page speed report mobile  result](assets/images/pagespeed-report-mobile.PNG)
 
-- validation from homepage
+- Validation from homepage
   ![iamge showing homepage result](assets/images/lighthouse-indexpage.PNG)
 
-- validation for gallery page
+- Validation for gallery page
   ![iamge showing gallery result](assets/images/lighthouse-gallerypage.PNG)
 
-- validation for media page
+- Validation for media page
   ![iamge showing media result](assets/images/lighthouse-mediapage.PNG)
 
 ### Validator Testing
 
 - I have tested all HTML pages on the HTML validator and there are no errors
 
-  - home page
-  - gallery page
-  - media page
+  - Home Page
+  - Gallery Page
+  - Media Page
 
-- when building the website have used an extension called pritter which has resulted in the warning that you can see on each screenshot
+- When building the website I have used an extension called pritter which has resulted in the warnings that you can see on each screenshot below:
 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
   ![html validator results](assets/images/html-validator.PNG)
 
-- When testing my CSS as you can see from the below image tehre were no errors
+- When testing my CSS as you can see from the below image there are no errors
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 ![CSS validator results](assets/images/css-validator.PNG)
 
-- when testing the website on different devices i have used the pre-defined dimensions that come with the developer tool on google chrome
-- i have also reasearch a number of website which have described the most connon screen size for devices in 2023 for desktop and mobile - https://www.designrush.com/agency/web-development-companies/trends/website-dimensions
+- When testing the website on different devices i have used the pre-defined dimensions that come with the developer tools on Google Chrome
+- I have also researched several websites which have described the most common screen size for devices in 2023 for desktop and mobile - https://www.designrush.com/agency/web-development-companies/trends/website-dimensions
 
 ![Media Page wireframe](assets/images/most-common-screen-resolutions-worldwide-content.jpg)
 
-**external links**
+**External Links**
 
-- i have tested each external link to make sure that it goes to the correct website
+- I have tested each external link to make sure that it goes to the correct website
 - I have also tested the links to make sure that they all open the website on a new broswer tab
 
-**mobile navbar header**
+**Mobile Na0vbar Header**
 
-- the navbar on mobile has been tested to make sure that it appears when the burger is clicked
-- the navbar has been test to make sure that the large screen navbar disappers and only the mobile version is visible
+- The navbar on mobile has been tested to make sure that it appears when the burger is clicked
+- The navbar has been testing to make sure that the large screen navbar disappears and only the mobile version is visible
 
 **Colour Scheme**
 
-- the colour scheme of dark slate gray, black and white was also used as when checking on the colour contrast ratio they passed all tests
+- The colour scheme of dark slate gray, black and white was used as when checking on the colour contrast ratio they passed all tests
 
 ![colour contrast image](assets/images/colour-contrast.PNG)
 
 ### Issues and Bugs
 
-- inital when creating the webiste i had an issue that the website was always slightling to big for the screen, my first thought was that there was an element that was pushing out of its parent element
-  - the issue was that i was missing a max-width on the body parent element, to solve this issue i had to add a max-wdith to the elements and this fixed the issue
-- another issue i faced was with regards to the embeded video and podcast, when i added these into my code they came with some pre-set dimensions and also caused an issue with the validation
-  - to solve this issue i removed the css which came with the video and podcast and added in my own css to re-style both elements, i also followed the recommendations of the validator
-- when validation my code i found there was an issue with the mobile navigation bar, the error related to the value given to the "for" atribute and the value give the the "name" attribute did not match. When correcting this initally it broke the styling that was applied to the checkbox.
-  - to solve this issue i had to go through the mobile navigation code as well as teh devloper tools to understand what classes were being added and what classesd were not being added. from this i could understnad what the issue was and how to fix it which was to update the class name.
+- Initally when creating the webiste I had an issue that the website was always slightly too big for the screen, my first thought was that there was an element that was pushing out of its parent element
+  - The issue was that I was missing a max-width on the body parent element, to solve this issue I had to add a max-width to the correct element and this fixed the issue
+- Another issue I faced was concerning the embedded video and podcast, when I added these into my code they came with some pre-set dimensions and also caused an issue with the validation
+  - To solve this issue I removed the CSS which came with the video and podcast and added my own CSS to re-style both elements, I also followed the recommendations of the validator
+- When validating my code I found there was an issue with the mobile navigation bar, the error related to the value given to the "for" attribute and the value given the the "name" attribute did not match. When correcting this initially it broke the styling that was applied to the checkbox.
+  - To solve this issue I had to go through the mobile navigation code as well as the developer tools to understand what classes were being added and what classes were not being added. From this, I could understand what the issue was and how to fix it which was to update the class name.
 
 ### Performance
 
-- when testing the website on Pagespeed i found there was a reduction in performaance, to resolve this i updated all images to webp
-- the reason for this being that there is a signification reduction in the size of the image without a loss of quality which results in a faster website loading time
+- When testing the website on Pagespeed I found there was a reduction in performance, to resolve this I updated all images to webp
+- The reason for this is that there is a signification reduction in the size of the image without a loss of quality which results in a faster website loading time
 - Other benefits include reduced bandwidth
 
 ### SEO
 
 - To improve the SEO side of the webiste i have included the follow code below.
-  - I have added a meta section which included certain key words, meaning that when a user searchs these words there is a higher chance that my site will appear in the search results
-  - there is also a title included which will be picked up by google when a search is completed
+  - I have added a meta section which includes certain keywords, meaning that when a user searches these words there is a higher chance that my site will appear in the search results
+  - There is also a title included which will be picked up by Google when a search is completed
 
 ```
 <!-- title and tab icon -->
@@ -325,11 +323,11 @@ The live link can be found here - https://gmontaque.github.io/project1-st-nazair
 
 #### Icons
 
-- all icons used in the website were taken from Fontawesome [Font Awesome](https://fontawesome.com/)
+- All icons used in the website were taken from Fontawesome [Font Awesome](https://fontawesome.com/)
 
 #### Home Page
 
-- the content of the text on the home page came from the follow websites:
+- The content of the text on the home page came from the follow websites:
   - https://www.combinedops.com/St%20Nazaire.htm
 - For the hero slider i took insperation from the follow code:
   - https://codepen.io/LalexG/pen/VxVzeE
@@ -343,23 +341,23 @@ The live link can be found here - https://gmontaque.github.io/project1-st-nazair
 
 #### Media Page
 
-- written cotent of the review of the greatest raid book came from - https://www.amazon.co.uk/Greatest-Raid-Nazaire-Operation-Chariot/dp/0241992257#:~:text=Under%20orders%20to%20attack%20the,than%20in%20any%20similar%20operation.
-- written content fo the review of the book into the jaws of death came from - https://robertlyman.com/book/into-the-jaws-of-death/
+- Written cotent of the review of the greatest raid book came from - https://www.amazon.co.uk/Greatest-Raid-Nazaire-Operation-Chariot/dp/0241992257#:~:text=Under%20orders%20to%20attack%20the,than%20in%20any%20similar%20operation.
+- Written content fo the review of the book into the jaws of death came from - https://robertlyman.com/book/into-the-jaws-of-death/
 
 #### Footer
 
-- in the footer from left to right the information was gained as follows
-  - first link is the logo for the St Naizare town webiste and the link takes you to the side - https://www.saint-nazaire-tourisme.uk/explore/discover-our-heritage/war-and-peace-stories/
-  - the second image is taken from a history website - https://shows.acast.com/dansnowshistoryhit/episodes/destroying-a-nazi-stronghold-the-st-nazaire-raid
-  - the third is taken from the ausrtialn goverment website and is of a declassifed docuemtn of the raid - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
+- In the footer from left to right the information was gained as follows:
+  - First link is the logo for the St Naizare town webiste and the link takes you to the side - https://www.saint-nazaire-tourisme.uk/explore/discover-our-heritage/war-and-peace-stories/
+  - The second image is taken from a history website - https://shows.acast.com/dansnowshistoryhit/episodes/destroying-a-nazi-stronghold-the-st-nazaire-raid
+  - The third is taken from the Australian goverment website and is of a declassified document of the raid - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
 
 ### Media and Images
 
-- background image - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
-- images used on home page
+- Background Image - https://www.navy.gov.au/sites/default/files/documents/Battle_Summary_12.pdf
+- Images used on home page
   - https://discover.hubpages.com/education/The-Greatest-Raid-of-All-Operation-Chariot-St-Nazaire-27th-March-1942
   - https://www.worldnavalships.com/forums/thread.php?threadid=1099
-- images used in gallery page
+- Images used in gallery page
 
   - https://militaryhistorynow.com/2022/02/22/operation-chariot-inside-britains-daring-commando-raid-on-st-nazaire/
   - https://warfarehistorynetwork.com/article/the-st-nazaire-raid/
