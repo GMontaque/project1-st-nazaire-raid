@@ -46,6 +46,10 @@ a {
   text-decoration-color: darkslategray;
   color: darkslategray;
 }
+
+.display-none {
+  display: none;
+}
 /******* navbar  **********/
 
 header {
@@ -116,6 +120,15 @@ footer {
   width: 100%;
 }
 
+.footer-img-margin {
+  margin-top: -2rem;
+}
+
+.footer-history-img {
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
 .footer-external-text {
   position: absolute;
   bottom: 0.5rem;
@@ -162,6 +175,10 @@ footer {
   top: 25px;
   right: 25px;
   z-index: 2;
+}
+
+.mobile-navlinks ul {
+  height: 40rem;
 }
 
 #mobile-navlinks-logo {
@@ -366,6 +383,7 @@ footer {
 .st-nazaire-main-content-header {
   margin: 3rem 0;
   font-size: 3rem;
+  text-align: center;
 }
 
 .st-nazaire-main-content-text {
