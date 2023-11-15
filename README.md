@@ -1,39 +1,41 @@
 # St Nazaire Raid - Operation Chariot
 
-## About the project
+## About the Project
 
 ![picture of the mockup of the website](assets/images/mockup.PNG)
 
-I have created a website where a user can view infomration about the St Nazaire Raid which is a battle that took place during WW2 but is not so well known or famous as some other battles such as D-day or the battle of berlin. But i'd i argue should equally be placed up there and what was done on that fatful day was something that people have said was considered to be not possible and a sucide mission.
+I have created a website where a user can view infomration about the St Nazaire Raid which is a battle that took place during WW2 but is not so well known or famous as some other battles such as D-day or the Battle of Berlin. I'd argue thought, that it should equally be placed up there with other famous battles and that what was done on that fateful day was something that people have said was considered to be not possible and a suicide mission.
 
-Through the website I aim to show a yuser how the plan initally got it routes and the reasons such a plan had to come together, and then it will be explained to them both the battle itelf and the stuggles and problems that was faced by the attacking force, before finally finishing by showing where a person can visit the war memorial for this battle.
+Through the website, I aim to show a user how the plan initially got its routes and the reasons such a plan had to come together. Then I will explain to the user both the battle itself and the struggles and problems that were faced by the attacking force, before finally finishing by showing where a person can visit the war memorial for this battle.
 
-There are also links to further docuemnts and videos where a user can find further information and even some first hand accounts of the men who took part in the battle.
+There are also links to further documents and videos where a user can find further information and even some first-hand accounts of the men who took part in the battle.
 
-## Target audience
+## Target Audience
 
 **What was the idea behind building the product?**
 
 - To inform users about the raid and share the history
 - To show the men who took part and what they endured
-- Breakdown why the raid happened and how it happened through different media sources
+- Breakdown of why the raid happened and how it happened through different media sources
 
 **What are the needs of our users and how do we address them?**
 
 - Be able to find out information about the raid easily
-- Understanding the raid in more detail
-- User should feel they have a better understanding about the raid after going through the site
-- The user should find the information in multipul sorces to suit their needs
+- Understanding all aspects of the raid in more detail
+- Users should feel they have a better understanding of the raid after going through the site
+- The user should find the information in multiple sources to suit their needs
+- Users should feel engaged
 
 **How does the site meets the needs of user and business**
 
-- A person with an interest in ww2 and famous battle can go through and abosrbe information
+- A person with an interest in ww2 and famous battles can go through and absorb information
 - There are further links to even more information from sources with more detail, allowing them to further their knowledge
-- Images have been added so people can visualise the battle as well as reading about the topic
-- Content is easy to read and digest but provides all the detail required
-- Through the use of the images and text the site will attract more users to the site and engange them
-- The media content and links means there is something for all users, which will help the site and buiness to get traffic
-- SEO has been used throughout the site, inceasing teh SEO ranking of the site
+- Images have been added so people can visualise the battle as well as read about the topic
+- Content is easy to read and digest but provides all the details required
+- Through the use of images and text the site will attract more users to the site and engage them
+- The media content and links mean there is something for all users, which will help the site and business to get traffic
+- SEO has been used throughout the site, increasing the SEO ranking of the site
+- A form has been added so that further information can be emailed to the user keeping their interest in the site and knowledge of the site
 
 ## Features
 
@@ -41,13 +43,14 @@ There are also links to further docuemnts and videos where a user can find furth
 
 **Navigation Bar**
 
-- this appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. Iin the navigation bar there are links to the home page, gallery and media page.
-- Using the naviatation bar the user can navigate all 3 pages, the logo is also a navigation link, when clicked on it send the user back to the home page.
+- This appears on all 3 pages and is identical, it contains a full navigation bar and a logo which is the Combined Operations Shoulder Patch, the navigation bar is fully responsive and has a mobile version which appears when the screen size is the correct width. In the navigation bar, there are links to the home page, gallery and media page.
+- Using the navigation bar the user can navigate all 3 pages, the logo is also a navigation link, and when clicked on it sends the user back to the home page.
+
 
 ![Nav Bar](assets/images/navbar-mockup.PNG)
 ![Mobile Nav Bar](assets/images/mobile-navbar-mockup.PNG)
 
-**The landing page image**
+**Landing Page Image**
 
 - This is the first page the user sees when clicking on the website
 - The user is greeted by a navigation bar, a hero image with a text overlay and the title of the webiste
@@ -309,8 +312,6 @@ There are also links to further docuemnts and videos where a user can find furth
 ```
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
