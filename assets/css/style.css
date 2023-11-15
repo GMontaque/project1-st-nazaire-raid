@@ -23,7 +23,7 @@ body {
 
 h1 {
   width: 100%;
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: center;
   padding: 3rem;
   color: white;
@@ -698,7 +698,10 @@ textarea {
 
 @media only screen and (max-width: 1026px) {
   /* index page */
-
+  h1 {
+    font-size: 5rem;
+    padding: 2rem;
+  }
   .slide-show-container {
     width: 100%;
   }
@@ -873,6 +876,14 @@ textarea {
     max-width: 100%;
     padding: 0rem 4rem;
   }
+
+  /* home page */
+
+  h1 {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
   /* gallery page */
   .vc-winners-card {
     display: flex;
